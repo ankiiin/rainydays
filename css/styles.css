@@ -43,5 +43,11 @@ nav li {
 /* Home Page */
 
 .homepage_photo {
-    
+    background-repeat: no-repeat;
+    width: 1425px;
+    height: 600px;
+}
+
+.cta {
+    color: #fff;
 }
