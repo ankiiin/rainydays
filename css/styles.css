@@ -24,13 +24,24 @@ nav li {
     display: inline-block;
 }
 
-.menu a {
+.menu a{
     color: #fff;
     display: block;
     text-decoration: none;
     width: 100px;
-    display: block;
-    padding: 15px;
     font-size: 1.2em;
 }
 
+.footer a, 
+.fa-brands {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* Home Page */
+
+.homepage_photo {
+    
+}
