@@ -176,3 +176,23 @@ div li {
     left: 1124px;
     top: 1770px;
 }
+
+/* Privacy page, Terms page, Accesibility page */
+
+.privacy {
+    position: absolute;
+    display: block;
+    margin-left: 600px;
+    margin-top: 200px;
+}
+
+/* Store.html */
+
+
+
+.sandvika {
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 500px;
+}
+
