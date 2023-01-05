@@ -11,7 +11,7 @@ body {
     margin: 0xp;
 }
 
-nav {
+.menubar {
     background-color: #0A3641;
     overflow: hidden;
     text-align: center;
@@ -35,6 +35,14 @@ div li {
     text-decoration: none;
     width: 100px;
     font-size: 1.2em;
+}
+
+.footerbar {
+    background-color: #0A3641;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    margin-top: 550px;
 }
 
 .footer a, 
