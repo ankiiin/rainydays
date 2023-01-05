@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
 .logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 550px;
+    margin-left: 250px;
+    
 }
 
 body {
@@ -21,6 +18,14 @@ nav {
 }
 
 nav li {
+    display: inline-block;
+}
+
+ul li {
+    display: inline-block;
+}
+
+div li {
     display: inline-block;
 }
 
@@ -46,8 +51,120 @@ nav li {
     background-repeat: no-repeat;
     width: 1425px;
     height: 600px;
+    display: block;
 }
 
 .cta {
+    background-color: transparent;
     color: #fff;
+    position: absolute;
+    top: 990px;
+    left: 600px;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+    padding: 20px;
+}
+
+.popular_now {
+    position: absolute;
+    left: 100px;
+    font-size: 1.5em;
+}
+
+.retro_jacket {
+    background-image: url(../images/retro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 370px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 70px;
+    -ms-transform-origin-y: 100px;
+}
+
+.retro_text {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 200px;
+    top: 1740px;
+}
+
+.retro_price {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 220px;
+    top: 1770px;
+}
+
+
+.hiker_jacket {
+    background-image: url(../images/hiker.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 420px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 40px;
+}
+
+.hiker_text {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 663px;
+    top: 1740px;
+}
+
+.hiker_price {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 672px;
+    top: 1770px;
+}
+
+.running_jacket {
+    background-image: url(../images/running.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 1000px;
+}
+
+.running_text {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 1111px;
+    top: 1740px;
+}
+
+.running_price {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 1124px;
+    top: 1770px;
 }
