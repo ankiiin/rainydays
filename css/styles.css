@@ -37,6 +37,14 @@ div li {
     font-size: 1.2em;
 }
 
+.fa-regular {
+    color: #fff;
+    text-decoration: none;
+    float: inline-end;
+    margin-top: 18px;
+    margin-right: 40px;
+    font-size: 1.5em;
+}
 
 .footerbar {
     background-color: #0A3641;
