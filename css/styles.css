@@ -37,6 +37,12 @@ div li {
     font-size: 1.2em;
 }
 
+.fa-regular {
+    color: #fff;
+    margin-left: 1000px;
+    font-size: 4em;
+}
+
 .footerbar {
     background-color: #0A3641;
     overflow: hidden;
@@ -175,6 +181,42 @@ div li {
     position: absolute;
     left: 1124px;
     top: 1770px;
+}
+
+/* About page */
+
+.about_photo {
+    display: block;
+    width: 750px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_text {
+    font-size: 1.2em;
+    display: block;
+    margin-left: 400px;
+}
+
+.about_text_two {
+    font-size: 1.2em;
+    display: block;
+    margin-left: 470px;
+}
+
+.about_text_three {
+    font-size: 1.2em;
+    display: block;
+    margin-left: 520px;
+}
+
+.footerbar_about {
+    background-color: #0A3641;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    margin-top: 150px;
 }
 
 /* Privacy page, Terms page, Accesibility page */
