@@ -37,11 +37,6 @@ div li {
     font-size: 1.2em;
 }
 
-.fa-regular {
-    color: #fff;
-    margin-left: 1000px;
-    font-size: 4em;
-}
 
 .footerbar {
     background-color: #0A3641;
@@ -108,7 +103,7 @@ div li {
     color: black;
     position: absolute;
     left: 200px;
-    top: 1740px;
+    top: 1760px;
 }
 
 .retro_price {
@@ -117,7 +112,7 @@ div li {
     color: black;
     position: absolute;
     left: 220px;
-    top: 1770px;
+    top: 1790px;
 }
 
 
@@ -140,7 +135,7 @@ div li {
     color: black;
     position: absolute;
     left: 663px;
-    top: 1740px;
+    top: 1760px;
 }
 
 .hiker_price {
@@ -149,7 +144,7 @@ div li {
     color: black;
     position: absolute;
     left: 672px;
-    top: 1770px;
+    top: 1790px;
 }
 
 .running_jacket {
@@ -171,7 +166,7 @@ div li {
     color: black;
     position: absolute;
     left: 1111px;
-    top: 1740px;
+    top: 1760px;
 }
 
 .running_price {
@@ -180,7 +175,7 @@ div li {
     color: black;
     position: absolute;
     left: 1124px;
-    top: 1770px;
+    top: 1790px;
 }
 
 /* About page */
