@@ -374,6 +374,37 @@ div li {
     top: 1530px;
 }
 
+.runningjacket {
+    background-image: url(../images/running.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 340px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 950px;
+    margin-left: 130px;
+}
+
+.runningtext{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 200px;
+    top: 2030px;
+}
+
+.runningprice {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 220px;
+    top: 2060px;
+}
+
 .footerbar_men {
     background-color: #0A3641;
     overflow: hidden;
