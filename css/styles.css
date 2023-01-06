@@ -186,6 +186,21 @@ div li {
     top: 1790px;
 }
 
+/* Men page */
+
+.sailorjacket {
+    background-image: url(../images/sailor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
 /* About page */
 
 .about_photo {
