@@ -291,7 +291,7 @@ div li {
     padding: 0;
     position: absolute;
     margin-top: 500px;
-    margin-left: 100px;
+    margin-left: 130px;
 }
 
 .campingjacket {
@@ -311,8 +311,8 @@ div li {
     background-image: url(../images/softshell.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 290px;
-    height: 350px;
+    width: 270px;
+    height: 330px;
     margin: 0;
     padding: 0;
     position: absolute;
@@ -320,12 +320,66 @@ div li {
     margin-left: 980px;
 }
 
+.retrotext {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 230px;
+    top: 1500px;
+}
+
+.campingtext {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 650px;
+    top: 1500px;
+}
+
+.softshelltext {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 1050px;
+    top: 1500px;
+}
+
+.retroprice {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 250px;
+    top: 1530px;
+}
+
+.campingprice {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 670px;
+    top: 1530px;
+}
+
+.softshellprice {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 1080px;
+    top: 1530px;
+}
+
 .footerbar_men {
     background-color: #0A3641;
     overflow: hidden;
     text-align: center;
     position: relative;
-    margin-top: 1200px;
+    margin-top: 1400px;
 }
 
 /* About page */
