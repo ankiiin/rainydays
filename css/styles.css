@@ -449,6 +449,15 @@ div li {
     margin-top: 150px;
 }
 
+/* Contact page */
+
+.contact_us {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 300px;
+    font-size: 1.5em;
+}
+
 /* Privacy page, Terms page, Accesibility page */
 
 .privacy {
