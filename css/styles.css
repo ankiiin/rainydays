@@ -452,11 +452,22 @@ div li {
 /* Contact page */
 
 .contact_us {
-    position: absolute;
     margin-top: 70px;
     margin-left: 300px;
     font-size: 1.5em;
 }
+
+.name_text {
+    position: absolute;
+    font-size: 1.5em;
+    margin-top: 50px;
+    margin-left: 650px;
+}
+
+.name_input {
+    position: absolute;
+}
+
 
 /* Privacy page, Terms page, Accesibility page */
 
