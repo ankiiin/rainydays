@@ -26,10 +26,17 @@
     </header>
     <main>
         <p class="contact_us">If you have any questions, feel free to contact us by submitting the form below.</p>
-        <section class="contactform">
-            <label for="name" class="name_text">Name</label>
-            <input type="name" id="name" name="name_input" />
-        </section>
+       <form method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name"/>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+        <label for="ordernumber">Order number</label>
+        <input for="ordernumber" id="ordernumber" name="ordernumber" />
+        <label for="message">Message</label>
+        <textarea id="message"></textarea>
+        <button class="send_button">Send</button>
+       </form>
     </main>
     <footer>
         <nav class="footerbar">
