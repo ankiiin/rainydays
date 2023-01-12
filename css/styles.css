@@ -457,15 +457,16 @@ div li {
     font-size: 1.5em;
 }
 
-.name_text {
-    position: absolute;
-    font-size: 1.5em;
-    margin-top: 50px;
-    margin-left: 650px;
+.input, textarea {
+    border: 1px solid #fff;
 }
 
-.name_input {
-    position: absolute;
+.send_button {
+    background-color: #0A3641;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 70px;
+    font-size: 1.2em;
 }
 
 
