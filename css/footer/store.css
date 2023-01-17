@@ -1,64 +1,68 @@
 .find_store {
-    display: block;
-    margin-left: 600px;
-    margin-top: 70px;
-    font-size: 2em;
+    position: absolute;
+    left: 633px;
+    top: 670px;
+    font-size: 1.6em;
 }
 
 .sandvika {
     position: absolute;
     width: 450px;
-    margin-left: 200px;
-    margin-top: 50px;
-    margin-bottom: 500px;
+    height: 300px;
+    left: 200px;
+    top: 756px;
 }
 
 .sandvika_text {
     position: absolute;
-    font-size: 1.4em;
-    margin-top: 370px;
-    margin-left: 300px;
+    left: 310px;
+    top: 1070px;
+    font-size: 1.3em;
 }
 
 .grunerlokka {
+    position: absolute;
     width: 450px;
-    margin-left: 200px;
-    margin-top: 450px;
+    height: 300px;
+    left: 750px;
+    top: 756px;
 }
 
 .grunerlokka_text {
     position: absolute;
-    margin-left: 335px;
-    font-size: 1.4em;
+    left: 920px;
+    top: 1070px;
+    font-size: 1.3em;
 }
 
 .storo {
     position: absolute;
-    width: 420px;
-    margin-left: 750px;
-    margin-top: 50px;
+    width: 450px;
+    height: 300px;
+    left: 200px;
+    top: 1200px;
 }
 
 .storo_text {
     position: absolute;
-    font-size: 1.4em;
-    margin-top: 370px;
-    margin-left: 860px;
+    left: 340px;
+    top: 1510px;
+    font-size: 1.3em;
 }
 
 .sorlandssenteret {
     position: absolute;
-    width: 420px;
-    height: 280px;
-    margin-top: 450px;
-    margin-left: 100px;
+    width: 450px;
+    height: 300px;
+    left: 750px;
+    top: 1200px;
 }
 
 .sorlandssenteret_text {
     position: absolute;
-    font-size: 1.4em;
-    margin-left: 850px;
-
+    left: 880px;
+    top: 1510px;
+    font-size: 1.3em;
 }
 
 .footerbar_store {
