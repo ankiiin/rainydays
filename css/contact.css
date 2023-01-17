@@ -1,0 +1,105 @@
+.contact_us {
+    position: absolute;
+width: 1374px;
+height: 67px;
+left: 33px;
+top: 740px;
+font-size: 25px;
+line-height: 37px;
+text-align: center;
+}
+
+.name_text {
+    position: absolute;
+    width: 103.85px;
+    height: 44px;
+    left: 445px;
+    top: 910px;
+    font-size: 1.1em;
+    line-height: 44px;
+}
+
+.name {
+    position: absolute;
+    width: 500px;
+    height: 25px;
+    left: 445px;
+    top: 950px;
+    border: 1px solid black;
+}
+
+.email_text {
+    position: absolute;
+    width: 103.85px;
+    height: 44px;
+    left: 445px;
+    top: 1010px;
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 44px;
+}
+
+.email {
+    position: absolute;
+    width: 500px;
+    height: 25px;
+    left: 445px;
+    top: 1050px;
+    border: 1px solid black;
+}
+
+.ordernumber_text {
+    position: absolute;
+    width: 230px;
+    height: 44px;
+    left: 445px;
+    top: 1110px;
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 44px;
+}
+
+.ordernumber {
+    position: absolute;
+    width: 500px;
+    height: 25px;
+    left: 445px;
+    top: 1150px;
+    border: 1px solid black;
+}
+
+.message_text {
+    position: absolute;
+    width: 162px;
+    height: 44px;
+    left: 445px;
+    top: 1210px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 44px;
+}
+
+.message {
+    position: absolute;
+    width: 500px;
+    height: 200px; 
+    left: 445px;
+    top: 1250px;
+    border: 1px solid black;
+}
+
+.send_button {
+    background-color: #0A3641;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 70px;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    left: 590px;
+    top: 1500px;
+}
