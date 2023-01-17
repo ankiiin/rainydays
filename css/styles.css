@@ -195,6 +195,8 @@ div li {
     height: 350px;
     margin: 0;
     padding: 0;
+    flex-direction: column;
+    grid-template-columns: 1fr;
     position: absolute;
     margin-top: 20px;
     margin-left: 120px;
@@ -550,4 +552,8 @@ div li {
     text-align: center;
     position: relative;
     margin-top: 250px;
+}
+
+@media screen (max-width:480px) {
+    
 }
