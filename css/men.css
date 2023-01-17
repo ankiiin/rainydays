@@ -1,0 +1,226 @@
+.sailorjacket {
+    background-image: url(../images/sailor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.skijacket {
+    background-image: url(../images/ski.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 280px;
+    height: 330px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 550px;
+}
+
+.hikerjacket {
+    background-image: url(../images/hiker.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 330px;
+    height: 340px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 950px;
+}
+
+.sailortext {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 220px;
+    top: 1000px;
+}
+
+.skitext {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 640px;
+    top: 1000px;
+}
+
+.hikertext {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 1080px;
+    top: 1000px;
+}
+
+.sailorprice {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 230px;
+    top: 1030px;
+}
+
+.skiprice {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 645px;
+    top: 1030px;
+}
+
+.hikerprice {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 1100px;
+    top: 1030px;
+}
+
+.retrojacket {
+    background-image: url(../images/retro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 320px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 130px;
+}
+
+.campingjacket {
+    background-image: url(../images/camping.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 320px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 540px;
+}
+
+.softshelljacket {
+    background-image: url(../images/softshell.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 330px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 980px;
+}
+
+.retrotext {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 230px;
+    top: 1500px;
+}
+
+.campingtext {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 650px;
+    top: 1500px;
+}
+
+.softshelltext {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 1050px;
+    top: 1500px;
+}
+
+.retroprice {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 250px;
+    top: 1530px;
+}
+
+.campingprice {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 670px;
+    top: 1530px;
+}
+
+.softshellprice {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 1080px;
+    top: 1530px;
+}
+
+.runningjacket {
+    background-image: url(../images/running.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 340px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 950px;
+    margin-left: 130px;
+}
+
+.runningtext{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 200px;
+    top: 2030px;
+}
+
+.runningprice {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    position: absolute;
+    left: 220px;
+    top: 2060px;
+}
+
+.footerbar_men {
+    background-color: #0A3641;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    margin-top: 1400px;
+}
