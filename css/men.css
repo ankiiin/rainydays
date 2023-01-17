@@ -195,7 +195,7 @@
     margin: 0;
     padding: 0;
     position: absolute;
-    margin-top: 950px;
+    margin-top: 13px;
     margin-left: 130px;
 }
 
@@ -218,9 +218,10 @@
 }
 
 .footerbar_men {
-    background-color: #0A3641;
-    overflow: hidden;
-    text-align: center;
-    position: relative;
-    margin-top: 1400px;
+    position: absolute;
+    width: 1440px;
+    height: 83px;
+    left: 1px;
+    top: 2000px;
+    background: #0A3641;
 }
