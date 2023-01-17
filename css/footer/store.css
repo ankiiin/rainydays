@@ -1,0 +1,70 @@
+.find_store {
+    display: block;
+    margin-left: 600px;
+    margin-top: 70px;
+    font-size: 2em;
+}
+
+.sandvika {
+    position: absolute;
+    width: 450px;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 500px;
+}
+
+.sandvika_text {
+    position: absolute;
+    font-size: 1.4em;
+    margin-top: 370px;
+    margin-left: 300px;
+}
+
+.grunerlokka {
+    width: 450px;
+    margin-left: 200px;
+    margin-top: 450px;
+}
+
+.grunerlokka_text {
+    position: absolute;
+    margin-left: 335px;
+    font-size: 1.4em;
+}
+
+.storo {
+    position: absolute;
+    width: 420px;
+    margin-left: 750px;
+    margin-top: 50px;
+}
+
+.storo_text {
+    position: absolute;
+    font-size: 1.4em;
+    margin-top: 370px;
+    margin-left: 860px;
+}
+
+.sorlandssenteret {
+    position: absolute;
+    width: 420px;
+    height: 280px;
+    margin-top: 450px;
+    margin-left: 100px;
+}
+
+.sorlandssenteret_text {
+    position: absolute;
+    font-size: 1.4em;
+    margin-left: 850px;
+
+}
+
+.footerbar_store {
+    background-color: #0A3641;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    margin-top: 250px;
+}
