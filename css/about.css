@@ -1,0 +1,41 @@
+.about_photo {
+    position: absolute;
+    width: 726px;
+    height: 377px;
+    left: 347px;
+    top: 700px;
+}
+
+.about_text {
+    position: absolute;
+    width: 1108px;
+    height: 214px;
+    left: 159px;
+    top: 1100px;
+    font-size: 1.2em;
+    line-height: 37px;
+    text-align: center;
+}
+
+.about_text_two {
+    position: absolute;
+    width: 1108px;
+    height: 214px;
+    left: 159px;
+    top: 1150px;
+    font-size: 1.2em;
+    line-height: 37px;
+    text-align: center;
+}
+
+.about_text_three {
+    position: absolute;
+    width: 1108px;
+    height: 214px;
+    left: 159px;
+    top: 1200px;
+    font-size: 1.2em;
+    line-height: 37px;
+    text-align: center;
+}
+
