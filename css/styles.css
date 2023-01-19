@@ -25,40 +25,30 @@ body {
     position: absolute;
     left: 250px;
     bottom: 25%;
-    font-weight: 600;
-    line-height: 44px;
 }
 
 .men_button {
     position: absolute;
     left: 430px;
     bottom: 25%;
-    font-weight: 600;
-    line-height: 44px;
 }
 
 .women_button {
     position: absolute;
     left: 600px;
     bottom: 25%;
-    font-weight: 600;
-    line-height: 44px;
 }
 
 .about_button {
     position: absolute;
     left: 800px;
     bottom: 25%;
-    font-weight: 600;
-    line-height: 44px;
 }
 
 .contact_button {
     position: absolute;
     left: 1000px;
     bottom: 25%;
-    font-weight: 600;
-    line-height: 44px;
 }
 
 .menu a{
