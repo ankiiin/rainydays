@@ -16,7 +16,6 @@
     left: 445px;
     top: 910px;
     font-size: 1.1em;
-    line-height: 44px;
 }
 
 .name {
@@ -36,7 +35,6 @@
     top: 1010px;
     font-weight: 400;
     font-size: 1.1em;
-    line-height: 44px;
 }
 
 .email {
@@ -56,7 +54,6 @@
     top: 1110px;
     font-weight: 400;
     font-size: 1.1em;
-    line-height: 44px;
 }
 
 .ordernumber {
@@ -77,7 +74,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 1.1em;
-    line-height: 44px;
 }
 
 .message {

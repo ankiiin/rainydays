@@ -1,23 +1,15 @@
 .thanks {
     position: absolute;
-    width: 664px;
-    height: 88px;
     left: 360px;
     top: 800px;
-    font-weight: 400;
     font-size: 30px;
-    line-height: 44px;
     text-align: center;
 }
 
 .thanks_undertext {
     position: absolute;
-    width: 664px;
-    height: 88px;
     left: 370px;
     top: 900px;
-    font-weight: 400;
     font-size: 30px;
-    line-height: 44px;
     text-align: center;
 }

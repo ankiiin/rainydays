@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/checkout.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" 
     crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/36779412fb.js" crossorigin="anonymous"></script>
@@ -24,8 +25,44 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <form method="post">
+         <label for="email" class="email_text">Email</label>
+         <textarea id="email" class="email"></textarea>
+         <label for="firstname" class="firstname_text">First name</label>
+         <textarea id="firstname" class="firstname"></textarea>
+         <label for="lastname" class="lastname_text">Last name</label>
+         <textarea id="lastname" class="lastname"></textarea>
+         <label for="adress" class="adress_text">Adress</label>
+         <textarea id="adress" class="adress"></textarea>
+         <label for="zipcode" class="zipcode_text">ZIP code</label>
+         <textarea id="zipcode" class="zipcode"></textarea>
+         <label for="city" class="city_text">City</label>
+         <textarea id="city" class="city"></textarea>
+         <label for="phone" class="phone_text">Phone</label>
+         <textarea id="phone" class="phone"></textarea>
+         <li><a href="complete.html" class="checkout_button">Check out</a> </li>
+        </form>
+        <h1 class="items_text">3 items</h1>
+        <section class="checkout_items">
+            <li><a href="images/retro.png" class="retrojacket"></a></li>
+        <h1 class="retro_text">Retro jacket</h1>
+        <h2 class="retro_size">Small</h2>
+        <h2 class="retro_price">$ 35.00</h2>
+         <li><a href="images/sailor.png" class="sailorjacket"></a></li>
+        <h1 class="sailor_text">Sailor jacket</h1>
+        <h2 class="sailor_size">Small</h2>
+        <h2 class="sailor_price">$ 49.99</h2>
+         <li><a href="images/softshell.png" class="softshelljacket"></a></li>
+        <h1 class="softshell_text">Softshell jacket</h1>
+        <h2 class="softshell_size">Small</h2>
+        <h2 class="softshell_price">$ 55.00</h2>
+        </section>
+        <h3 class="total">Total:</h3>
+        <h3 class="total_price">$ 139.99</h3>
+    </main>
     <footer>
-        <nav class="footerbar">
+        <nav class="footerbar_checkout">
         <ul class="footer">
             <li><a href="privacy.html" class="privacy_button">Privacy policy</a></li>
             <li><a href="terms.html" class="terms_button">Terms & Conditions</a></li>

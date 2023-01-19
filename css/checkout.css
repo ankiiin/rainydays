@@ -1,0 +1,252 @@
+.email_text {
+    position: absolute;
+    left: 170px;
+    top: 750px;
+    font-size: 1.2em;
+}
+
+.email {
+    position: absolute;
+    width: 400px;
+    height: 25px;
+    left: 170px;
+    top: 790px;
+    border: 1px solid black;
+}
+
+.firstname_text {
+    position: absolute;
+    left: 170px;
+    top: 860px;
+    font-size: 1.2em;
+}
+
+.firstname {
+    position: absolute;
+    width: 190px;
+    height: 25px;
+    left: 170px;
+    top: 900px;
+    border: 1px solid black;
+}
+
+.lastname_text {
+    position: absolute;
+    left: 370px;
+    top: 860px;
+    font-size: 1.2em;
+}
+
+.lastname {
+    position: absolute;
+    width: 195px;
+    height: 25px;
+    left: 370px;
+    top: 900px;
+    border: 1px solid black;
+}
+
+.adress_text {
+    position: absolute;
+    left: 170px;
+    top: 970px;
+    font-size: 1.2em;
+}
+
+.adress {
+    position: absolute;
+    width: 400px;
+    height: 25px;
+    left: 170px;
+    top: 1010px;
+    border: 1px solid black;
+}
+
+.zipcode_text {
+    position: absolute;
+    left: 170px;
+    top: 1090px;
+    font-size: 1.2em;
+}
+
+.zipcode {
+    position: absolute;
+    width: 190px;
+    height: 25px;
+    left: 170px;
+    top: 1130px;
+    border: 1px solid black;
+}
+
+.city_text {
+    position: absolute;
+    left: 370px;
+    top: 1090px;
+    font-size: 1.2em;
+}
+
+.city {
+    position: absolute;
+    width: 195px;
+    height: 25px;
+    left: 370px;
+    top: 1130px;
+    border: 1px solid black;
+}
+
+.phone_text {
+    position: absolute;
+    left: 170px;
+    top: 1200px;
+    font-size: 1.2em;
+}
+
+.phone {
+    position: absolute;
+    width: 400px;
+    height: 25px;
+    left: 170px;
+    top: 1240px;
+    border: 1px solid black;
+}
+
+.items_text {
+    position: absolute;
+    left: 850px;
+    top: 650px;
+    font-size: 1.2em;
+}
+
+.retrojacket {
+    background-image: url(../images/retro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 230px;
+    height: 250px;
+    left: 800px;
+    top: 750px;
+}
+
+.retro_text {
+    position: absolute;
+    font-size: 1em;
+    left: 1070px;
+    top: 800px;
+}
+
+.retro_size {
+    position: absolute;
+    font-size: 1em;
+    left: 1070px;
+    top: 830px;
+}
+
+.retro_price {
+    position: absolute;
+    font-size: 1em;
+    left: 1070px;
+    top: 860px;
+}
+
+.sailorjacket {
+    background-image: url(../images/sailor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    left: 800px;
+    top: 1050px;
+}
+
+.sailor_text {
+    position: absolute;
+    font-size: 1em;
+    left: 1070px;
+    top: 1130px;
+}
+
+.sailor_size {
+    position: absolute;
+    font-size: 1em;
+    left: 1070px;
+    top: 1160px;
+}
+
+.sailor_price {
+    position: absolute;
+    font-size: 1em;
+    left: 1070px;
+    top: 1190px;
+}
+
+.softshelljacket {
+    background-image: url(../images/softshell.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 210px;
+    height: 250px;
+    left: 800px;
+    top: 1350px;
+}
+
+.softshell_text {
+    position: absolute;
+    font-size: 1em;
+    left: 1070px;
+    top: 1430px;
+}
+
+.softshell_size {
+    position: absolute;
+    font-size: 1em;
+    left: 1070px;
+    top: 1460px;
+}
+
+.softshell_price {
+    position: absolute;
+    font-size: 1em;
+    left: 1070px;
+    top: 1490px;
+}
+
+.total {
+    position: absolute;
+    font-size: 1.2em;
+    left: 800px;
+    top: 1640px;
+}
+
+.total_price {
+    position: absolute;
+    font-size: 1.2em;
+    left: 1150px;
+    top: 1640px;
+}
+
+.checkout_button {
+    background-color: #0A3641;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 70px;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    left: 890px;
+    top: 1750px;
+}
+
+.footerbar_checkout {
+    position: absolute;
+    width: 1440px;
+    height: 83px;
+    left: 1px;
+    top: 2000px;
+    background: #0A3641;
+}

@@ -1,0 +1,13 @@
+.thanks {
+    position: absolute;
+    left: 500px;
+    top: 800px;
+    font-size: 1.5em;
+}
+
+.thanks_two {
+    position: absolute;
+    left: 550px;
+    top: 850px;
+    font-size: 1.5em;
+}
