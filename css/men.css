@@ -2,41 +2,33 @@
     background-image: url(../images/sailor.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 300px;
-    height: 350px;
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
-    grid-template-columns: 1fr;
     position: absolute;
-    margin-top: 20px;
-    margin-left: 120px;
+    width: 290px;
+    height: 350px;
+    left: 180px;
+    top: 700px;
 }
 
 .skijacket {
     background-image: url(../images/ski.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 280px;
-    height: 330px;
-    margin: 0;
-    padding: 0;
     position: absolute;
-    margin-top: 40px;
-    margin-left: 550px;
+    width: 290px;
+    height: 350px;
+    left: 560px;
+    top: 710px;
 }
 
 .hikerjacket {
     background-image: url(../images/hiker.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 330px;
-    height: 340px;
-    margin: 0;
-    padding: 0;
     position: absolute;
-    margin-top: 40px;
-    margin-left: 950px;
+    width: 290px;
+    height: 300px;
+    left: 975px;
+    top: 730px;
 }
 
 .sailortext {
@@ -44,8 +36,8 @@
     font-size: 1.2em;
     color: black;
     position: absolute;
-    left: 220px;
-    top: 1000px;
+    left: 265px;
+    top: 1060px;
 }
 
 .skitext {
@@ -53,8 +45,8 @@
     font-size: 1.2em;
     color: black;
     position: absolute;
-    left: 640px;
-    top: 1000px;
+    left: 660px;
+    top: 1060px;
 }
 
 .hikertext {
@@ -62,8 +54,8 @@
     font-size: 1.2em;
     color: black;
     position: absolute;
-    left: 1080px;
-    top: 1000px;
+    left: 1070px;
+    top: 1060px;
 }
 
 .sailorprice {
@@ -71,8 +63,8 @@
     font-size: 1.2em;
     color: black;
     position: absolute;
-    left: 230px;
-    top: 1030px;
+    left: 280px;
+    top: 1100px;
 }
 
 .skiprice {
@@ -80,8 +72,8 @@
     font-size: 1.2em;
     color: black;
     position: absolute;
-    left: 645px;
-    top: 1030px;
+    left: 670px;
+    top: 1100px;
 }
 
 .hikerprice {
@@ -89,47 +81,41 @@
     font-size: 1.2em;
     color: black;
     position: absolute;
-    left: 1100px;
-    top: 1030px;
+    left: 1080px;
+    top: 1100px;
 }
 
 .retrojacket {
     background-image: url(../images/retro.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 300px;
-    height: 320px;
-    margin: 0;
-    padding: 0;
     position: absolute;
-    margin-top: 500px;
-    margin-left: 130px;
+    width: 290px;
+    height: 320px;
+    left: 180px;
+    top: 1200px;
 }
 
 .campingjacket {
     background-image: url(../images/camping.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 300px;
-    height: 320px;
-    margin: 0;
-    padding: 0;
     position: absolute;
-    margin-top: 500px;
-    margin-left: 540px;
+    width: 290px;
+    height: 320px;
+    left: 550px;
+    top: 1200px;
 }
 
 .softshelljacket {
     background-image: url(../images/softshell.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 270px;
-    height: 330px;
-    margin: 0;
-    padding: 0;
     position: absolute;
-    margin-top: 500px;
-    margin-left: 980px;
+    width: 290px;
+    height: 340px;
+    left: 1000px;
+    top: 1200px;
 }
 
 .retrotext {
@@ -137,8 +123,8 @@
     font-size: 1.2em;
     color: black;
     position: absolute;
-    left: 230px;
-    top: 1500px;
+    left: 265px;
+    top: 1560px;
 }
 
 .campingtext {
@@ -146,8 +132,8 @@
     font-size: 1.2em;
     color: black;
     position: absolute;
-    left: 650px;
-    top: 1500px;
+    left: 640px;
+    top: 1560px;
 }
 
 .softshelltext {
@@ -156,7 +142,7 @@
     color: black;
     position: absolute;
     left: 1050px;
-    top: 1500px;
+    top: 1560px;
 }
 
 .retroprice {
@@ -164,8 +150,8 @@
     font-size: 1.2em;
     color: black;
     position: absolute;
-    left: 250px;
-    top: 1530px;
+    left: 280px;
+    top: 1600px;
 }
 
 .campingprice {
@@ -174,7 +160,7 @@
     color: black;
     position: absolute;
     left: 670px;
-    top: 1530px;
+    top: 1600px;
 }
 
 .softshellprice {
@@ -183,20 +169,18 @@
     color: black;
     position: absolute;
     left: 1080px;
-    top: 1530px;
+    top: 1600px;
 }
 
 .runningjacket {
     background-image: url(../images/running.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 270px;
-    height: 340px;
-    margin: 0;
-    padding: 0;
     position: absolute;
-    margin-top: 13px;
-    margin-left: 130px;
+    width: 250px;
+    height: 320px;
+    left: 190px;
+    top: 1700px;
 }
 
 .runningtext{
@@ -204,8 +188,8 @@
     font-size: 1.2em;
     color: black;
     position: absolute;
-    left: 200px;
-    top: 2030px;
+    left: 255px;
+    top: 2060px;
 }
 
 .runningprice {
@@ -213,8 +197,8 @@
     font-size: 1.2em;
     color: black;
     position: absolute;
-    left: 220px;
-    top: 2060px;
+    left: 280px;
+    top: 2100px;
 }
 
 .footerbar_men {
@@ -222,6 +206,6 @@
     width: 1440px;
     height: 83px;
     left: 1px;
-    top: 2000px;
+    top: 2200px;
     background: #0A3641;
 }
