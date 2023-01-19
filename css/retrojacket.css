@@ -1,3 +1,23 @@
+.fa-sharp {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 2em;
+    position: absolute;
+    left: 100px;
+    top: 700px;
+}
+
+.back_button {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1em;
+    position: absolute;
+    left: 100px;
+    top: 730px;
+}
+
 .retro_jacket {
     position: absolute;
     width: 550px;
