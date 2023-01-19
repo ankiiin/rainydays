@@ -51,6 +51,16 @@ body {
     bottom: 25%;
 }
 
+.fa-solid {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.8em;
+    position: absolute;
+    left: 1350px;
+    bottom: 15%;
+}
+
 .menu a{
     color: #fff;
     display: block;
