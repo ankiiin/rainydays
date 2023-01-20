@@ -150,8 +150,6 @@ div li {
     top: 20px;
 }
 
-@media all and (max-widht:768px) {
-    [class="col-"] {
-        width: 100%;
-    }
+@media all and (max-widht:800px) {
+
 }
