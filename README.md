@@ -14,7 +14,7 @@ Creating different pages as listed in the architecture of the chosen brief such 
 
 Issues:
 
-I have had major issues with media queries and have tried to change my css codes and I´m still working on how to fix that. I will get back when this has been fixed. 
+I have had major issues with media queries and have tried to change my css codes and I´m still working on how to fix that. I will get back when this has been fixed. Figured the mistake where I have used position:absolute on every code which will not work with the media queries. I will now have to go through everything since nothing will be in position after i remove position:absolute. 
 
 Changes from prototype:
 

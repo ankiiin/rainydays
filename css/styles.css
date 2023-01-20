@@ -7,14 +7,12 @@ body {
 }
 
 .logo {
-    position: absolute;
     width: 1000px;
     left: 200px;
 }
 
 .menubar {
     background-color: #0A3641;
-    position: absolute;
     width: 1440px;
     height: 83px;
     left: 0px;
@@ -22,31 +20,26 @@ body {
 }
 
 .home_button {
-    position: absolute;
     left: 250px;
     bottom: 25%;
 }
 
 .men_button {
-    position: absolute;
     left: 430px;
     bottom: 25%;
 }
 
 .women_button {
-    position: absolute;
     left: 600px;
     bottom: 25%;
 }
 
 .about_button {
-    position: absolute;
     left: 800px;
     bottom: 25%;
 }
 
 .contact_button {
-    position: absolute;
     left: 1000px;
     bottom: 25%;
 }
@@ -56,7 +49,6 @@ body {
     text-decoration: none;
     padding: 10px;
     font-size: 1.8em;
-    position: absolute;
     left: 1350px;
     bottom: 15%;
 }
@@ -91,7 +83,6 @@ div li {
 }
 
 .footerbar {
-    position: absolute;
     width: 1440px;
     height: 83px;
     left: 1px;
@@ -100,7 +91,6 @@ div li {
 }
 
 .privacy_button {
-    position: relative;
     width: 87px;
     height: 22px;
     left: 220px;
@@ -109,7 +99,6 @@ div li {
 }
 
 .terms_button {
-    position: relative;
     width: 87px;
     height: 22px;
     left: 290px;
@@ -118,7 +107,6 @@ div li {
 }
 
 .accesibility_button {
-    position: relative;
     width: 87px;
     height: 22px;
     left: 360px;
@@ -127,7 +115,6 @@ div li {
 }
 
 .store_button {
-    position: absolute;
     width: 87px;
     height: 22px;
     left: 950px;
@@ -145,8 +132,7 @@ div li {
 
 .fa_brands {
     color: #fff;
-    position: absolute;
-    left: 1200px;
+    left: 2000px;
     top: 20px;
 }
 

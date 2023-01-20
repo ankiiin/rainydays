@@ -1,6 +1,5 @@
 .homepage_photo {
     background-repeat: no-repeat;
-    position: absolute;
     width: 1452px;
     height: 480px;
     right: 1px;
@@ -10,7 +9,6 @@
 .cta {
     background-color: transparent;
     color: #fff;
-    position: absolute;
     top: 950px;
     left: 560px;
     text-decoration: none;
@@ -22,7 +20,6 @@
 }
 
 .popular_now {
-    position: absolute;
     left: 111px;
     top: 1150px;
     font-size: 1.2em;
@@ -31,8 +28,6 @@
 .retro_jacket {
     background-image: url(../images/retro.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
     width: 290px;
     height: 320px;
     left: 150px;
@@ -43,7 +38,6 @@
     text-decoration: none;
     font-size: 1.2em;
     color: black;
-    position: absolute;
     left: 240px;
     top: 1700px;
 }
@@ -52,7 +46,6 @@
     text-decoration: none;
     font-size: 1.2em;
     color: black;
-    position: absolute;
     left: 250px;
     top: 1740px;
 }
@@ -62,7 +55,6 @@
     background-image: url(../images/hiker.png);
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
     width: 310px;
     height: 320px;
     left: 550px;
@@ -73,7 +65,6 @@
     text-decoration: none;
     font-size: 1.2em;
     color: black;
-    position: absolute;
     left: 650px;
     top: 1700px;
 }
@@ -82,7 +73,6 @@
     text-decoration: none;
     font-size: 1.2em;
     color: black;
-    position: absolute;
     left: 672px;
     top: 1740px;
 }
@@ -91,7 +81,6 @@
     background-image: url(../images/running.png);
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
     width: 260px;
     height: 330px;
     left: 1030px;
@@ -102,7 +91,6 @@
     text-decoration: none;
     font-size: 1.2em;
     color: black;
-    position: absolute;
     left: 1105px;
     top: 1700px;
 }
@@ -111,13 +99,11 @@
     text-decoration: none;
     font-size: 1.2em;
     color: black;
-    position: absolute;
     left: 1124px;
     top: 1740px;
 }
 
 .footerbar_home {
-    position: absolute;
     width: 1440px;
     height: 83px;
     left: 1px;
