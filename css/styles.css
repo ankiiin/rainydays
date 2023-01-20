@@ -149,3 +149,9 @@ div li {
     left: 1200px;
     top: 20px;
 }
+
+@media all and (max-widht:768px) {
+    [class="col-"] {
+        width: 100%;
+    }
+}
