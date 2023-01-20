@@ -1,3 +1,9 @@
+.grey.area, li {
+    list-style: none;
+}
+
+
+
 .email_text {
     position: absolute;
     left: 170px;

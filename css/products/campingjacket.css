@@ -1,3 +1,7 @@
+li {
+    list-style: none;
+}
+
 .fa-sharp {
     color: black;
     text-decoration: none;
