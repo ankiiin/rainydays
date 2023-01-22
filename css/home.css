@@ -1,3 +1,5 @@
+
+
 .homephoto_container {
     display: flex;
 }
@@ -10,91 +12,18 @@
     font-size: 1.5em;
     display: block;
     text-align: left;
-    margin: 3%;
+    padding: 10px 100px;
 }
 
-.cta {
-    background-color: transparent;
-    color: #fff;
-    top: 950px;
-    left: 560px;
-    text-decoration: none;
-    font-size: 1.5em;
-    border-style: solid;
-    border-color: #fff;
-    border-width: 1px;
-    padding: 20px;
+.retrojacket, 
+.hikerjacket, 
+.runningjacket {
+    padding: 15%;
 }
 
-.retrojacket {
-    
-}
-
-.retro_text {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-    left: 240px;
-    top: 1700px;
-}
-
-.retro_price {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-    left: 250px;
-    top: 1740px;
-}
-
-
-.hiker_jacket {
-    background-image: url(../images/hiker.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 310px;
-    height: 320px;
-    left: 550px;
-    top: 1350px;
-}
-
-.hiker_text {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-    left: 650px;
-    top: 1700px;
-}
-
-.hiker_price {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-    left: 672px;
-    top: 1740px;
-}
-
-.running_jacket {
-    background-image: url(../images/running.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 260px;
-    height: 330px;
-    left: 1030px;
-    top: 1350px;
-}
-
-.running_text {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-    left: 1105px;
-    top: 1700px;
-}
-
-.running_price {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-    left: 1124px;
-    top: 1740px;
+.popular_products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    list-style-type: none;
 }
