@@ -1,9 +1,5 @@
-.homepage_photo {
-    background-repeat: no-repeat;
-    width: 1452px;
-    height: 480px;
-    right: 1px;
-    top: 618px;
+.homephoto {
+    
 }
 
 .cta {
@@ -19,9 +15,7 @@
     padding: 20px;
 }
 
-.popular_now {
-    left: 111px;
-    top: 1150px;
+.popular {
     font-size: 1.2em;
 }
 
