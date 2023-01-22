@@ -1,9 +1,9 @@
-.container {
+.homephoto_container {
     display: flex;
 }
 
 .homephoto {
-    text-align: center;
+    
 }
 
 .cta {

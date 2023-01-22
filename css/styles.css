@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body, main, ul {
+body, 
+main, 
+ul, 
+figure {
     font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
