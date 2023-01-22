@@ -1,3 +1,8 @@
+li a {
+    text-decoration: none;
+    color: black;
+}
+
 .jackets_row_one {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -7,157 +12,85 @@
     padding-top: 5%;
 }
 
-.sailortext {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-
-    left: 265px;
-    top: 1060px;
-}
-
-.skitext {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-
-    left: 660px;
-    top: 1060px;
+.jackets_text_row_one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    font-size: 1.4em;
+    column-gap: 5%;
+    padding-left: 15%;
 }
 
 .hikertext {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-    left: 1070px;
-    top: 1060px;
+    padding-left: 5%;
 }
 
-.sailorprice {
-    text-decoration: none;
+.jackets_price_row_one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
     font-size: 1.2em;
-    color: black;
-    left: 280px;
-    top: 1100px;
-}
-
-.skiprice {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-    left: 670px;
-    top: 1100px;
+    column-gap: 5%;
+    padding-left: 16.5%;
+    padding-bottom: 5%;
 }
 
 .hikerprice {
-    text-decoration: none;
+    padding-left: 10%;
+}
+
+.jackets_row_two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    list-style-type: none;
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.jackets_text_row_two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    font-size: 1.4em;
+    column-gap: 3%;
+    padding-left: 15%;
+}
+
+.jackets_price_row_two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
     font-size: 1.2em;
-    color: black;
-    left: 1080px;
-    top: 1100px;
+    column-gap: 8%;
+    padding-left: 17%;
+    padding-bottom: 5%;
 }
 
-.retrojacket {
-    background-image: url(../images/retro.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 290px;
-    height: 320px;
-    left: 180px;
-    top: 1200px;
+.jackets_row_three {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    list-style-type: none;
+    padding-left: 10%;
+    padding-top: 3%;
 }
 
-.campingjacket {
-    background-image: url(../images/camping.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 290px;
-    height: 320px;
-    left: 550px;
-    top: 1200px;
+.jackets_text_row_three {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    font-size: 1.4em;
+    column-gap: 5%;
+    padding-left: 13%;
 }
 
-.softshelljacket {
-    background-image: url(../images/softshell.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 290px;
-    height: 340px;
-    left: 1000px;
-    top: 1200px;
-}
-
-.retrotext {
-    text-decoration: none;
+.jackets_price_row_three {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
     font-size: 1.2em;
-    color: black;
-    left: 265px;
-    top: 1560px;
+    column-gap: 5%;
+    padding-left: 15%;
+    padding-bottom: 5%;
 }
-
-.campingtext {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-    left: 640px;
-    top: 1560px;
-}
-
-.softshelltext {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-    left: 1050px;
-    top: 1560px;
-}
-
-.retroprice {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-    left: 280px;
-    top: 1600px;
-}
-
-.campingprice {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-    left: 670px;
-    top: 1600px;
-}
-
-.softshellprice {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-    left: 1080px;
-    top: 1600px;
-}
-
-.runningjacket {
-    background-image: url(../images/running.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 250px;
-    height: 320px;
-    left: 190px;
-    top: 1700px;
-}
-
-.runningtext{
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-    left: 255px;
-    top: 2060px;
-}
-
-.runningprice {
-    text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-    left: 280px;
-    top: 2100px;
-}
-
