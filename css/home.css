@@ -3,7 +3,14 @@
 }
 
 .homephoto {
-    
+    align-items: center;
+}
+
+.popular {
+    font-size: 1.5em;
+    display: block;
+    text-align: left;
+    margin: 3%;
 }
 
 .cta {
@@ -19,17 +26,8 @@
     padding: 20px;
 }
 
-.popular {
-    font-size: 1.2em;
-}
-
-.retro_jacket {
-    background-image: url(../images/retro.png);
-    background-repeat: no-repeat;
-    width: 290px;
-    height: 320px;
-    left: 150px;
-    top: 1350px;
+.retrojacket {
+    
 }
 
 .retro_text {
