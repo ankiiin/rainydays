@@ -14,16 +14,36 @@ body {
 .menubar {
     background-color: #0a3641;
     font-size: 1.8em;
-    padding: 10px;
     text-align: center;
 }
 
 .menu a {
     color: #fff;
     text-decoration: none;
-    margin: 35px;
+    margin: 25px;
 }
 
-nav li, .fa-solid {
+nav li, 
+.fa-solid{
     display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footerbar {
+    background-color: #0a3641;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer li a {
+    border-right: 1px solid #ccc;
 }
