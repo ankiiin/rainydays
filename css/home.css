@@ -1,7 +1,6 @@
 .homephoto_container {
     display: flex;
 }
-
 .popular {
     font-size: 1.6em;
     display: block;
@@ -34,4 +33,9 @@
     column-gap: 8%;
     padding-left: 17%;
     padding-bottom: 5%;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
 }
