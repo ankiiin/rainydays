@@ -1,7 +1,5 @@
 .accesibility {
-    position: absolute;
-    left: 550px;
-    top: 800px;
-    font-size: 2em;
-    line-height: 44px;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5%;
 }
