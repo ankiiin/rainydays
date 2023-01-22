@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
+body, main, ul {
     font-family: Roboto, sans-serif, Arial, Helvetica, sans-serif;
+    margin: 0;
     padding: 0;
-    margin: 0xp;
 }
 
 .logo {
@@ -20,7 +20,7 @@ body {
 .menu a {
     color: #fff;
     text-decoration: none;
-    margin: 25px;
+    margin: 0px 25px;
 }
 
 nav li, 
@@ -36,6 +36,7 @@ nav li,
     text-align: center;
     padding-top: 3px;
     padding-bottom: 3px;
+
 }
 
 .footer a {

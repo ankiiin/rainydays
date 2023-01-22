@@ -1,5 +1,9 @@
+.container {
+    display: flex;
+}
+
 .homephoto {
-    
+    text-align: center;
 }
 
 .cta {
@@ -95,12 +99,4 @@
     color: black;
     left: 1124px;
     top: 1740px;
-}
-
-.footerbar_home {
-    width: 1440px;
-    height: 83px;
-    left: 1px;
-    top: 1900px;
-    background: #0A3641;
 }
