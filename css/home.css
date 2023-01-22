@@ -1,24 +1,12 @@
-
-
 .homephoto_container {
     display: flex;
 }
 
-.homephoto {
-    align-items: center;
-}
-
 .popular {
-    font-size: 1.5em;
+    font-size: 1.6em;
     display: block;
     text-align: left;
     padding: 10px 100px;
-}
-
-.retrojacket, 
-.hikerjacket, 
-.runningjacket {
-    padding: 15%;
 }
 
 .popular_products {
@@ -26,4 +14,24 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
     list-style-type: none;
+    padding-left: 10%;
+}
+
+.popular_text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    font-size: 1.4em;
+    column-gap: 5%;
+    padding-left: 15%;
+}
+
+.popular_price {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    font-size: 1.2em;
+    column-gap: 8%;
+    padding-left: 17%;
+    padding-bottom: 5%;
 }
