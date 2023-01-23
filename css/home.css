@@ -1,6 +1,8 @@
-.homephoto_container {
+.homephoto_container, .homephoto_container img {
     display: flex;
-}
+    width: 100%;
+  }
+
 .popular {
     font-size: 1.6em;
     display: block;
@@ -11,29 +13,25 @@
 .popular_products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
+    column-gap: 10px;
     list-style-type: none;
     padding-left: 10%;
+    padding-bottom: 3%;
+    font-size: 1.2em;
 }
 
-.popular_text {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    list-style-type: none;
-    font-size: 1.4em;
-    column-gap: 5%;
+.retrotext, 
+.retroprice,
+.hikertext,
+.hikerprice {
+    padding-left: 20%;
+}
+
+.runningtext,
+.runningprice {
     padding-left: 15%;
 }
 
-.popular_price {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    list-style-type: none;
-    font-size: 1.2em;
-    column-gap: 8%;
-    padding-left: 17%;
-    padding-bottom: 5%;
-}
 
 li a {
     text-decoration: none;
