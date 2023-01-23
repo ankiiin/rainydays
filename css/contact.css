@@ -3,103 +3,45 @@ li {
 }
 
 .contact_us {
-    position: absolute;
-    width: 1374px;
-    height: 67px;
-    left: 33px;
-    top: 740px;
-    font-size: 25px;
-    line-height: 37px;
+    font-size: 1.5em;
     text-align: center;
+    padding-bottom: 3%;
 }
 
-.name_text {
-    position: absolute;
-    width: 103.85px;
-    height: 44px;
-    left: 445px;
-    top: 910px;
-    font-size: 1.1em;
-}
-
-.name {
-    position: absolute;
-    width: 500px;
-    height: 25px;
-    left: 445px;
-    top: 950px;
+input,
+select {
     border: 1px solid black;
-}
-
-.email_text {
-    position: absolute;
-    width: 103.85px;
-    height: 44px;
-    left: 445px;
-    top: 1010px;
-    font-weight: 400;
-    font-size: 1.1em;
-}
-
-.email {
-    position: absolute;
-    width: 500px;
-    height: 25px;
-    left: 445px;
-    top: 1050px;
-    border: 1px solid black;
-}
-
-.ordernumber_text {
-    position: absolute;
-    width: 230px;
-    height: 44px;
-    left: 445px;
-    top: 1110px;
-    font-weight: 400;
-    font-size: 1.1em;
-}
-
-.ordernumber {
-    position: absolute;
-    width: 500px;
-    height: 25px;
-    left: 445px;
-    top: 1150px;
-    border: 1px solid black;
-}
-
-.message_text {
-    position: absolute;
-    width: 162px;
-    height: 44px;
-    left: 445px;
-    top: 1210px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.1em;
-}
-
-.message {
-    position: absolute;
-    width: 500px;
-    height: 200px; 
-    left: 445px;
-    top: 1250px;
-    border: 1px solid black;
-}
-
-.send_button {
-    background-color: #0A3641;
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 10px 70px;
-    font-size: 1.2em;
+    padding: 10px;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    position: absolute;
-    left: 590px;
-    top: 1500px;
+}
+
+.contact_form {
+    font-size: 1.2em;
+}
+
+textarea {
+    border: 1px solid black;
+    padding: 3%;
+    height: 40%;
+    min-height: 100%;
+    padding: 100px;
+}
+
+.contactform > * {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    text-align: left;
+    margin: 30px auto;
+}
+
+.cta_home {
+    background-color: #0a3641;
+    border: 1px solid #0a3641;
+    color: #fff;
+    font-size: 1.2em;
+    margin-bottom: 5%;
+    margin-left: 45%;
+    text-align: center;
+    padding: 20px 40px;
 }

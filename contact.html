@@ -27,17 +27,25 @@
     </header>
     <main>
         <p class="contact_us">If you have any questions, feel free to contact us by submitting the form below.</p>
-       <form method="post">
-        <label for="name" class="name_text">Name</label>
-        <textarea id="name" class="name"></textarea>
-        <label for="email" class="email_text">Email</label>
-        <textarea id="email" class="email"></textarea>
-        <label for="ordernumber" class="ordernumber_text">Order number</label>
-        <textarea id="ordernumber" class="ordernumber"></textarea>
-        <label for="message" class="message_text">Message</label>
-        <textarea id="message" class="message"></textarea>
-        <li><a href="thanks.html" class="send_button">Send</a> </li>
-       </form>
+        <form method="post">
+            <div class="contactform">
+                <section class="contact_form">
+                    <label for="firstname">Name</label>
+                    <input type="text" id="name" name="name"/>
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email"/>
+                    <br>
+                    <label for="ordernumber">Order number</label>
+                    <input type="text" id="ordernumber" name="ordernumber"/>
+                </section>
+                <section class="contact_form">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </section>
+            </div>
+            <a href="thanks.html"><input type="button" value="Send" class="cta_home"></a>
+        </form>
     </main>
     <footer>
         <nav class="footerbar">
