@@ -4,24 +4,7 @@
     padding: 3%;
 }
 
-.column {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-    list-style-type: none;
-    column-gap: 5%;
-    padding-left: 10%;
-    padding-top: 5%;
-}
-
-.sandvika {
-    padding-left: 30%;
-}
-
-.storo {
-    padding-left: 30%;
-}
-
+.column, 
 .columntwo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -30,13 +13,11 @@
     column-gap: 5%;
     padding-left: 10%;
     padding-top: 5%;
-    padding-bottom: 5%;
 }
 
-.grunerlokka {
-    padding-left: 30%;
-}
-
+.sandvika,
+.storo,
+.grunerlokka,
 .sorlandssenteret {
     padding-left: 30%;
 }

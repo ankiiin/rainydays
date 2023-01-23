@@ -27,21 +27,23 @@
     </header>
     <main>
         <form method="post">
-         <label for="email" class="email_text">Email</label>
-         <textarea id="email" class="email"></textarea>
-         <label for="firstname" class="firstname_text">First name</label>
-         <textarea id="firstname" class="firstname"></textarea>
-         <label for="lastname" class="lastname_text">Last name</label>
-         <textarea id="lastname" class="lastname"></textarea>
-         <label for="adress" class="adress_text">Adress</label>
-         <textarea id="adress" class="adress"></textarea>
-         <label for="zipcode" class="zipcode_text">ZIP code</label>
-         <textarea id="zipcode" class="zipcode"></textarea>
-         <label for="city" class="city_text">City</label>
-         <textarea id="city" class="city"></textarea>
-         <label for="phone" class="phone_text">Phone</label>
-         <textarea id="phone" class="phone"></textarea>
-         <li><a href="complete.html" class="checkout_button">Check out</a> </li>
+            <div class="contactform">
+                <section class="contact_form">
+                    <label for="firstname">First name</label>
+                    <input type="text" id="name" name="name"/>
+                    <br>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email"/>
+                    <br>
+                    <label for="ordernumber">Order number</label>
+                    <input type="text" id="ordernumber" name="ordernumber"/>
+                </section>
+                <section class="contact_form">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </section>
+            </div>
+            <a href="thanks.html"><input type="button" value="Send" class="cta_home"></a>
         </form>
         <ul class="grey_area">
         <h1 class="items_text">3 items</h1>
