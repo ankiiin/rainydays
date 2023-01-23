@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
   }
-  
+
 .popular {
     font-size: 1.6em;
     display: block;
@@ -20,16 +20,8 @@
     font-size: 1.2em;
 }
 
-.retrotext, 
-.retroprice,
-.hikertext,
-.hikerprice {
+.row {
     padding-left: 20%;
-}
-
-.runningtext,
-.runningprice {
-    padding-left: 15%;
 }
 
 li a {
