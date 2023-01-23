@@ -9,10 +9,9 @@ figure {
     padding: 0;
 }
 
-.logo {
-    display: block;
-    text-align: center;
-}
+.logo img {
+    width: 100%;
+  }
 
 .menubar {
     background-color: #0a3641;

@@ -2,6 +2,14 @@ li {
     list-style: none;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap: 2rem;
+  }
+
 input,
 select {
     border: 1px solid black;
