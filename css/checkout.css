@@ -17,7 +17,7 @@ select {
     display: flex;
 }
 
-.checkout_form {
+.contact_form {
     font-size: 1.2em;
 }
 
@@ -29,7 +29,7 @@ textarea {
     padding: 100px;
 }
 
-.checkoutform > * {
+.contactform > * {
     display: flex;
     flex-direction: column;
     max-width: 500px;

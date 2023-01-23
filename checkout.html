@@ -26,22 +26,24 @@
         </nav>
     </header>
     <main>
-        <form method="post">
-            <div class="checkoutform">
-                <section class="checkout_form">
+        <form method="post" action="./thanks.html">
+            <div class="contactform">
+                <section class="contact_form">
                     <label for="email">Email</label>
                     <input type="text" id="email" name="email"/>
                     <br>
-                    <label for="firstname">First name</label>
-                    <input type="text" id="name" name="name"/>
-                    <label for="lastname">Last name</label>
+                    <label for="name">First name</label>
                     <input type="text" id="name" name="name"/>
                     <br>
-                    <label for="lastname">Adress</label>
+                    <label for="name">Last name</label>
+                    <input type="text" id="name" name="name"/>
+                    <br>
+                    <label for="adress">Adress</label>
                     <input type="text" id="adress" name="adress"/>
                     <br>
                     <label for="zipcode">Zip code</label>
                     <input type="text" id="zipcode" name="zipcode"/>
+                    <br>
                     <label for="city">City</label>
                     <input type="text" id="city" name="city"/>
                     <br>
@@ -53,8 +55,8 @@
                     <textarea id="message" name="message"></textarea>
                 </section>
             </div>
+            <a href="thanks.html" class="cta_checkout">Check out</a>
         </form>
-        <a href="checkout.html" class="cta_checkout">Check out</a>
     </main>
     <footer>
         <nav class="footerbar">
