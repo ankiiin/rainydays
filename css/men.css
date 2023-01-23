@@ -3,7 +3,9 @@ li a {
     color: black;
 }
 
-.columnone {
+.columnone,
+.columntwo, 
+.columnthree {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
@@ -32,29 +34,9 @@ li a {
     padding-left: 23%;
 }
 
-.columntwo {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 10px;
-    list-style-type: none;
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-bottom: 3%;
-    font-size: 1.2em;
-}
 
 .softshelltext,
 .softshellprice {
     padding-left: 13%;
 }
 
-.columnthree {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 10px;
-    list-style-type: none;
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-bottom: 3%;
-    font-size: 1.2em;
-}
