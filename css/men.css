@@ -3,9 +3,7 @@ li a {
     color: black;
 }
 
-.columnone,
-.columntwo, 
-.columnthree {
+.column {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
@@ -16,27 +14,15 @@ li a {
     font-size: 1.2em;
 }
 
-.sailortext,
-.sailorprice,
-.skitext,
-.skiprice,
-.retrotext,
-.retroprice,
-.campingtext,
-.campingprice,
-.runningtext,
-.runningprice {
+.row_one {
     padding-left: 15%;
 }
 
-.hikertext,
-.hikerprice {
+.row_two {
     padding-left: 23%;
 }
 
 
-.softshelltext,
-.softshellprice {
+.row_three {
     padding-left: 13%;
 }
-
