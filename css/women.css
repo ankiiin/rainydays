@@ -3,94 +3,39 @@ li a {
     color: black;
 }
 
-.jackets_row_one {
+.columnone,
+.columntwo, 
+.columnthree {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
+    column-gap: 10px;
     list-style-type: none;
-    padding-left: 10%;
     padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 3%;
+    font-size: 1.2em;
 }
 
-.jackets_text_row_one {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    list-style-type: none;
-    font-size: 1.4em;
-    column-gap: 5%;
+.sailortext,
+.sailorprice,
+.skitext,
+.skiprice,
+.retrotext,
+.retroprice,
+.campingtext,
+.campingprice,
+.runningtext,
+.runningprice {
     padding-left: 15%;
 }
 
-.hikertext {
-    padding-left: 5%;
-}
-
-.jackets_price_row_one {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    list-style-type: none;
-    font-size: 1.2em;
-    column-gap: 5%;
-    padding-left: 16.5%;
-    padding-bottom: 5%;
-}
-
+.hikertext,
 .hikerprice {
-    padding-left: 10%;
+    padding-left: 23%;
 }
 
-.jackets_row_two {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-    list-style-type: none;
-    padding-left: 10%;
-    padding-top: 3%;
-}
 
-.jackets_text_row_two {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    list-style-type: none;
-    font-size: 1.4em;
-    column-gap: 3%;
-    padding-left: 15%;
-}
-
-.jackets_price_row_two {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    list-style-type: none;
-    font-size: 1.2em;
-    column-gap: 8%;
-    padding-left: 17%;
-    padding-bottom: 5%;
-}
-
-.jackets_row_three {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-    list-style-type: none;
-    padding-left: 10%;
-    padding-top: 3%;
-}
-
-.jackets_text_row_three {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    list-style-type: none;
-    font-size: 1.4em;
-    column-gap: 5%;
+.softshelltext,
+.softshellprice {
     padding-left: 13%;
-}
-
-.jackets_price_row_three {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    list-style-type: none;
-    font-size: 1.2em;
-    column-gap: 5%;
-    padding-left: 15%;
-    padding-bottom: 5%;
 }
