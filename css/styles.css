@@ -9,6 +9,13 @@ figure {
     padding: 0;
 }
 
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 .logo img {
     width: 100%;
   }
@@ -17,6 +24,7 @@ figure {
     background-color: #0a3641;
     font-size: 1.8em;
     text-align: center;
+    width: 100%
 }
 
 .menu a {
