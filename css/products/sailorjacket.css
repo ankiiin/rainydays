@@ -7,6 +7,7 @@
 
 img {
     max-width: 100%;
+    padding: 3%;
 }
 
 .sailorimg {
@@ -15,6 +16,7 @@ img {
 
 .sailortxt {
     font-size: .8em;
+    padding-left: 3%;
 }
 
 .cta_buy {
@@ -25,4 +27,5 @@ img {
     align-items: center;
     margin-bottom: 5%;
     padding: 10px 20px;
+    max-width: 30%;
 }
