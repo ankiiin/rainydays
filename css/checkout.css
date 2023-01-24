@@ -39,21 +39,22 @@ textarea {
 
 .items {
     font-size: 1.2em;
+    padding-top: 5%;
 }
 
 .jackets{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    float: right;
     padding-right: 20%;
+    float: right;
   }
 
   .jacket-card{
     display: flex;
     gap: 10px;
     align-items: center;
-    padding-bottom: 10%;
+    padding-top: 5%;
   }
 
   .cta_complete {
@@ -63,5 +64,13 @@ textarea {
     font-size: 1.2em;
     margin-bottom: 5%;
     padding: 20px 40px;
-    max-width: 33%;
+    max-width: 30%;
+}
+
+.footerbar_checkout {
+    background-color: #0a3641;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 1%;
+    margin-top: 40%;
 }
