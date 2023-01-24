@@ -28,3 +28,15 @@ li a {
     text-decoration: none;
     color: black;
 }
+
+.cta_home {
+    position: absolute;
+    top: 145%;
+    left: 40%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 30px 50px;
+}

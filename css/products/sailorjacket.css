@@ -1,81 +1,28 @@
-li {
-    list-style: none;
-}
-
-.fa-sharp {
-    color: black;
-    text-decoration: none;
-    padding: 10px;
-    font-size: 2em;
-    position: absolute;
-    left: 100px;
-    top: 700px;
-}
-
-.back_button {
-    color: black;
-    text-decoration: none;
-    padding: 10px;
-    font-size: 1em;
-    position: absolute;
-    left: 100px;
-    top: 730px;
-}
-
-.sailor_jacket {
-    position: absolute;
-    width: 550px;
-    height: 600px;
-    left: 170px;
-    top: 800px;
-}
-
-.sailor_text {
-    position: absolute;
-    left: 850px;
-    top: 950px;
-    font-size: 1.5em;
-}
-
-.sailor_lorem {
-    position: absolute;
-    left: 850px;
-    top: 1000px;
-    font-size: 1em;
-}
-
-.sailor_lorem_two {
-    position: absolute;
-    left: 850px;
-    top: 1030px;
-    font-size: 1em;
-}
-
-.sailor_lorem_three {
-    position: absolute;
-    left: 850px;
-    top: 1060px;
-    font-size: 1em;
-}
-
-.sailor_price {
-    position: absolute;
-    left: 850px;
-    top: 1120px;
-    font-size: 1.2em;
-}
-
-.add_button {
-    background-color: #0A3641;
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 10px 70px;
-    font-size: 1.2em;
+.container {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    position: absolute;
-    left: 919px;
-    top: 1250px;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.sailorimg {
+    flex-basis: 35%;
+}
+
+.sailortxt {
+    font-size: .8em;
+}
+
+.cta_buy {
+    background-color: #0a3641;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    align-items: center;
+    margin-bottom: 5%;
+    padding: 10px 20px;
 }
