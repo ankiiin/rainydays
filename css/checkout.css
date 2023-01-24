@@ -5,10 +5,8 @@ li {
 form {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: left;
     gap: 2rem;
-  }
+}
 
 input,
 select {
@@ -17,7 +15,7 @@ select {
     display: flex;
 }
 
-.contact_form {
+.checkout_form {
     font-size: 1.2em;
 }
 
@@ -29,7 +27,7 @@ textarea {
     padding: 100px;
 }
 
-.contactform > * {
+.checkoutform > * {
     display: flex;
     flex-direction: column;
     max-width: 500px;
