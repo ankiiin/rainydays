@@ -12,8 +12,16 @@
     column-gap: 5%;
     padding-left: 10%;
     padding-top: 5%;
+    max-width: 100%;
 }
 
 .row {
     padding-left: 30%;
 }
+
+@media only screen and (max-width: 860px) {
+    .column {
+        grid-template-columns: 1fr;
+        max-width: 50%;
+   }
+ }

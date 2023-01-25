@@ -19,14 +19,6 @@ select {
     font-size: 1.2em;
 }
 
-textarea {
-    border: 1px solid black;
-    padding: 3%;
-    height: 40%;
-    min-height: 100%;
-    padding: 100px;
-}
-
 .checkoutform > * {
     display: flex;
     flex-direction: column;
