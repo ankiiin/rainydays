@@ -2,6 +2,11 @@ li {
     list-style: none;
 }
 
+.all {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -32,6 +37,7 @@ select {
 .items {
     font-size: 1.2em;
     padding-top: 5%;
+    display: flex;
 }
 
 .jackets{
@@ -39,7 +45,6 @@ select {
     flex-direction: column;
     gap: 10px;
     padding-right: 20%;
-    float: right;
   }
 
   .jacket-card{
@@ -56,13 +61,11 @@ select {
     font-size: 1.2em;
     margin-bottom: 5%;
     padding: 20px 40px;
-    max-width: 30%;
+    max-width: 20%;
 }
 
-.footerbar_checkout {
-    background-color: #0a3641;
-    font-size: 1em;
-    text-align: center;
-    padding-top: 1%;
-    margin-top: 40%;
-}
+@media only screen and (max-width: 900px) {
+    .all {
+       grid-template-columns: 1fr;
+   }
+ }
