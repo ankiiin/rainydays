@@ -24,4 +24,4 @@ I decided to not have the back button on the products pages because I was not ve
 The checkoutform on the checkout page is listed under each other instead of having first name and last name next to each other simply because I think the design looks better like that. 
 
 References:
-I got a lot of help from Eric and Brian with special effects like the grey background on the items in the check out page and the cta button on the image on home page.
+I want to thank Eric and Brian for the help I got on the special effects like the grey background on the items in the check out page, and the cta button on the image on home page.
