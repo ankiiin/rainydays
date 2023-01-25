@@ -45,6 +45,7 @@ select {
     flex-direction: column;
     gap: 10px;
     padding-right: 20%;
+    background-color: #d9d9d9;
   }
 
   .jacket-card{

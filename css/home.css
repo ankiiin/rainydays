@@ -1,5 +1,7 @@
 .homephoto_container, .homephoto_container img {
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
   }
 
@@ -31,8 +33,8 @@ li a {
 
 .cta_home {
     position: absolute;
-    top: 145%;
-    left: 40%;
+    display: flex;
+    margin-top: 25%;
     background-color: transparent;
     border: 1px solid #fff;
     color: #fff;
