@@ -27,7 +27,7 @@ select {
 .checkoutform > * {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 350px;
     text-align: left;
     padding-top: 8%;
     padding-bottom: 10%;
@@ -61,7 +61,7 @@ select {
     font-size: 1.2em;
     margin-bottom: 5%;
     padding: 20px 40px;
-    max-width: 20%;
+    max-width: 16%;
 }
 
 @media only screen and (max-width: 900px) {
