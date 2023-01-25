@@ -32,7 +32,7 @@ textarea {
     padding: 3%;
     height: 40%;
     min-height: 100%;
-    padding: 100px;
+    padding-left: 100px;
 }
 
 .contactform > * {
