@@ -18,7 +18,10 @@ I have had some issues with media queries and have tried to change my css codes 
 
 Changes from prototype:
 
-I had a hard time making the same fonts as in my prototype in Figma, so I have used Roboto instead. I excluded the grey background on the check out page because I could not find any information on how to make background colors on just some parts of the page. 
+I had a hard time making the same fonts as in my prototype in Figma, so I have used Roboto instead.
 I have used a different image on the home page than in Figma because I unfortunately could not find the image I used in my prototype. 
 I decided to not have the back button on the products pages because I was not very happy with the design when I added that. 
 The checkoutform on the checkout page is listed under each other instead of having first name and last name next to each other simply because I think the design looks better like that. 
+
+References:
+I got a lot of help from Eric and Brian with special effects like the grey background on the items in the check out page and the cta button on the image on home page.
