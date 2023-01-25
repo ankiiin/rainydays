@@ -26,3 +26,9 @@ li a {
 .row_three {
     padding-left: 13%;
 }
+
+@media only screen and (min-width: 1024px) {
+    .column {
+       grid-template-columns: 1fr 1fr;
+   }
+ }
