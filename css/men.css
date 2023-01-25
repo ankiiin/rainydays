@@ -27,8 +27,8 @@ li a {
     padding-left: 13%;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 800px) {
     .column {
-       grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
    }
  }
