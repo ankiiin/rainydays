@@ -26,6 +26,7 @@ select {
     border: 1px solid black;
     padding: 10px;
     display: flex;
+    width: 350px;
 }
 
 .checkout_form {
