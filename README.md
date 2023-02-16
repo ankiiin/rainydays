@@ -23,7 +23,8 @@ I had a hard time making the same fonts as in my prototype in Figma, so I have u
 I have used a different image on the home page than in Figma because I unfortunately could not find the image I used in my prototype. 
 I decided to not have the back button on the products pages because I was not very happy with the design when I added that. 
 The checkoutform on the checkout page is listed under each other instead of having first name and last name next to each other simply because I think the design looks better like that. 
-I have used a white background on the images in the checkout page simply because I think it looks better. 
+I have used a white background on the images in the checkout page simply because I think it looks better.
+To make the menubar available when scrolling down the pages I had to change the logo to be underneath the menubar.
 
 References:
 I want to thank Eric and Brian for the help I got on the special effects like the grey background on the items in the check out page, and the cta button on the image on home page.
