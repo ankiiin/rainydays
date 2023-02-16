@@ -5,30 +5,48 @@ li a {
 
 .column {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
     list-style-type: none;
     padding-top: 5%;
-    padding-left: 10%;
     padding-bottom: 3%;
+    justify-items: center;
     font-size: 1.2em;
 }
 
 .row_one {
-    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .row_two {
-    padding-left: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
 
 .row_three {
-    padding-left: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-@media only screen and (max-width: 800px) {
-    .column {
+@media only screen and (max-width: 1050px) {
+    .column,
+    .row_one,
+    .row_two,
+    .row_three
+     {
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 676px) {
+    .column,
+    .row_one,
+    .row_two,
+    .row_three {
         grid-template-columns: 1fr;
-   }
- }
+    }
+  }
