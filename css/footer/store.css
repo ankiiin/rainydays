@@ -10,7 +10,8 @@
     column-gap: 5px;
     list-style-type: none;
     column-gap: 5%;
-    padding-left: 10%;
+    justify-items: center;
+    align-items: center;
     padding-top: 5%;
     max-width: 100%;
 }
@@ -24,4 +25,10 @@
         grid-template-columns: 1fr;
         max-width: 50%;
    }
+ }
+
+ @media only screen and (max-width: 676px) {
+    .column {
+        grid-template-columns: 1fr;
+    }
  }
