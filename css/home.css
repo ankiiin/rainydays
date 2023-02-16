@@ -38,8 +38,8 @@ li a {
     display: flex;
     margin-top: 25%;
     background-color: transparent;
-    border: 1px solid #fff;
-    color: black;
+    border: 1px solid white;
+    color: white;
     text-decoration: none;
     font-size: 1.5em;
     padding: 30px 50px;
