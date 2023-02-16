@@ -3,3 +3,7 @@
     font-size: 1.5em;
     padding: 10%;
 }
+
+.hide {
+    display: none;
+    }

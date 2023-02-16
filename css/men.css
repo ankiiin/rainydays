@@ -32,6 +32,10 @@ li a {
     align-items: center;
 }
 
+.hide {
+    display: none;
+    }
+
 @media only screen and (max-width: 1050px) {
     .column,
     .row_one,

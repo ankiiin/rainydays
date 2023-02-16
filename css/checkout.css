@@ -74,6 +74,10 @@ select {
     max-width: 30%;
 }
 
+.hide {
+    display: none;
+    }
+
 @media only screen and (max-width: 1050px) {
     .all {
        grid-template-columns: 1fr;
