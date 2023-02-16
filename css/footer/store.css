@@ -19,7 +19,7 @@
     padding-left: 30%;
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 1050px) {
     .column {
         grid-template-columns: 1fr;
         max-width: 50%;

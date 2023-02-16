@@ -7,6 +7,7 @@
 
 img {
     max-width: 100%;
+    padding: 3%;
 }
 
 .runningimg {
@@ -28,7 +29,6 @@ img {
     padding: 10px 20px;
     max-width: 30%;
 }
-
 
 @media only screen and (max-width: 860px) {
     .cta_buy {
