@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The home page of my website">
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/home.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+    <link href="./css/home.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" 
     crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/36779412fb.js" crossorigin="anonymous"></script>
     <title> Rainydays | Home </title>
-    <script src="JS/index.js"></script>
+    <script src="./js/index.js" defer></script>
 </head>
 <body>
     <header>
@@ -19,8 +19,8 @@
         <nav class="menubar">
             <ul class="menu">
                 <li><a href="index.html" class="home_button">Home</a></li>
-                <li><a href="men.html" class="men_button">Men</a></li>
-                <li> <a href="women.html" class="women_button">Women</a> </li>
+                <li><a href="products.html" class="men_button">Men</a></li>
+                <li> <a href="products.html" class="women_button">Women</a> </li>
                 <li><a href="about.html" class="about_button">About</a></li>
                 <li><a href="contact.html" class="contact_button">Contact</a></li>
                 <li><a href="checkout.html"><span class="hide">cart icon</span><i class="fa-solid fa-cart-shopping"></i></a></li>
@@ -29,28 +29,57 @@
         </div>
     </header>
     <main>
-        <section class="homephoto_container">
-        <img src="images/lake_photo.png" class="homephoto" alt="Image for home page"/>
-        <a href="men.html" class="cta_home">Explore whats new</a>
+        <section class="retro-container">
+            <div class="product-image">
+               <img id="#product-image" src="../images/retro_jacket.png" alt="Image of retro jacket"/>
+            </div>
+            <div>
+               <h1 class="product-title">Retro jacket</h1>
+            <div>
+               <p class="product-description">Lorem ipsum dolor sit amet consectetur. Quam risus viverra lacus sed.<br> Semper enim ipsum sit sapien venenatis.</p>
+            </div>
+            <div>
+                <p class="product-price">$ 35.00</p>
+            </div>
+            <div class="cta_buy">
+                <a href="../checkout.html" class="cta_buy">Add to cart</a>
+            </div>
+            </div>
         </section>
-        <h1 class="popular">Popular now</h1>
-        <ul class="popular_products">
-            <div class="row">
-            <li><a href= "product.html?id={retrojacket.id}" class="retrojacket"><img src="images/retro_jacket.png" height="300" width="auto" alt="image of retro jacket"></a></li>
-            <li><a href= "product.html?id={retrojacket.id}" class="row">Retro jacket</a></li>
-            <li><a href= "product.html?id={retrojacket.id}" class="row">$ 49.99</a></li>
+        <section class="hiker-container">
+            <div class="product-image">
+               <img id="#product-image" src="../images/hiker_jacket.png" alt="Image of hiker jacket"/>
             </div>
-            <div class="row">
-            <li><a href= "product.html?id={hikerjacket.id}" class="hikerjacket"><img src="images/hiker_jacket.png" height="300" width="auto" alt="image of hiker jacket"></a></li>
-            <li><a href= "product.html?id={hikerjacket.id}" class="row">Hiker jacket</a></li>
-            <li><a href= "product.html?id={hikerjacket.id}" class="row">$ 69.99</a></li>
+            <div>
+               <h1 class="product-title">Hiker jacket</h1>
+            <div>
+               <p class="product-description">Lorem ipsum dolor sit amet consectetur. Quam risus viverra lacus sed.<br> Semper enim ipsum sit sapien venenatis.</p>
             </div>
-            <div class="row">
-                <li><a href= "product.html?id={runningjacket.id}" class="runningjacket"><img src="images/Running_jacket.png" height="300" width="auto" alt="image of running jacket"></a></li>
-                <li><a href= "product.html?id={runningjacket.id}" class="row">Running jacket</a></li>
-                <li><a href= "product.html?id={runningjacket.id}" class="row">$ 54.99</a></li>
+            <div>
+                <p class="product-price">$ 69.99</p>
             </div>
-        </ul>
+            <div class="cta_buy">
+                <a href="../checkout.html" class="cta_buy">Add to cart</a>
+            </div>
+            </div>
+        </section>
+        <section class="running-container">
+            <div class="product-image">
+               <img id="#product-image" src="../images/running_jacket.png" alt="Image of running jacket"/>
+            </div>
+            <div>
+               <h1 class="product-title">Running jacket</h1>
+            <div>
+               <p class="product-description">Lorem ipsum dolor sit amet consectetur. Quam risus viverra lacus sed.<br> Semper enim ipsum sit sapien venenatis.</p>
+            </div>
+            <div>
+                <p class="product-price">$ 54.99</p>
+            </div>
+            <div class="cta_buy">
+                <a href="../checkout.html" class="cta_buy">Add to cart</a>
+            </div>
+            </div>
+        </section>
     </main>
         <footer>
             <nav class="footerbar">
