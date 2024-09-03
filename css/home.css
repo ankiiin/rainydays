@@ -19,14 +19,9 @@
     list-style-type: none;
     justify-items: center;
     padding-bottom: 3%;
+    padding-top: 3%;
     font-size: 1.2em;
 }
-
-.popular_products {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 
 
 
