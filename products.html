@@ -4,22 +4,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The about page of my website">
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/about.css" rel="stylesheet">
+    <meta name="description" content="The camping jacket product page of my website">
+    <link href="./css/products.css" rel="stylesheet">
+    <link href="./css/home.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" 
     crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/36779412fb.js" crossorigin="anonymous"></script>
-    <title> Rainydays | About </title>
+    <title> Rainydays | Products </title>
+    <script src="../js/product.js" defer></script>
+</head>
 </head>
 <body>
     <header>
-        <div class="logo"><a href="index.html"><img src="images/logo_rainydays.png" alt="Logo"></a></div>
+        <div class="logo"><a href="../index.html"><img src="../images/logo_rainydays.png" alt="Logo"></a></div>
         <nav class="menubar">
             <ul class="menu">
                 <li><a href="index.html" class="home_button">Home</a></li>
-                <li><a href="products.html" class="men_button">Men</a></li>
-                <li> <a href="products.html" class="women_button">Women</a> </li>
+                <li><a href="product.html" class="men_button">Men</a></li>
+                <li> <a href="product.html" class="women_button">Women</a> </li>
                 <li><a href="about.html" class="about_button">About</a></li>
                 <li><a href="contact.html" class="contact_button">Contact</a></li>
                 <li><a href="checkout.html"><span class="hide">cart icon</span><i class="fa-solid fa-cart-shopping"></i></a></li>
@@ -27,12 +30,24 @@
         </nav>
     </header>
     <main>
-        <section class="about">
-            <img src="images/lake_photo.png" class="about_photo">
-        <p class="about_text">Rainydays is an online shop selling men`s and women`s rain jackets.</p> 
-        <p class="about_text_two">They are designed for a range of different outdoor</p>
-        <p class="about_text_three">activities that enrich people's lives.</p>
-        </section>
+        <main>
+            <section class="container">
+                <div class="product-image">
+                </div>
+                <div>
+                   <h1 class="product-title"></h1>
+                <div>
+                   <p class="product-description"></p>
+                </div>
+                <div>
+                    <p class="product-price"></p>
+                </div>
+                <div class="cta_buy">
+                    <a href="../checkout.html" class="cta_buy">Add to cart</a>
+                </div>
+                </div>
+            </section>
+        </main>
     </main>
     <footer>
         <nav class="footerbar">
