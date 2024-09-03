@@ -1,24 +1,35 @@
-document.addEventListener("DOMContentLoaded", async () => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const id = urlParams.get("id");
-    const apiUrl = `https://v2.api.noroff.dev/rainy-days/${id}`;
+document.addEventListener("DOMContentLoaded", async (event) => {
+    console.log("Hiya");
+    const baseUrl = "https://v2.api.noroff.dev/rainy-days";
+    const productsContainer = document.querySelector(".popular_products");
+    productsContainer.innerHTML = "";
 
-    const response = await fetch(apiUrl);
+    const response = await fetch(baseUrl);
     const json = await response.json();
+    const products = json.data;
 
-    const product = json.data;
+    products.forEach((product) => {
+        const li = document.createElement("li");
+        const anchor = document.createElement("a");
+        anchor.href = `/products/product.html?id=${product.id}`;
+        anchor.classList.add("product");
 
-    console.log(product);
-    const image = document.querySelector("#product-image");
-    image.src = product.image.url;
-    image.alt = product.image.alt ?? product.title;
+        const img = document.createElement("img");
+        img.src = product.image.url;
+        img.alt = product.image.alt ?? product.title;
+        img.height = 300;
+        img.width = 300;
+        anchor.appendChild(img);
 
-    const title = document.querySelector(".product-title");
-    title.innerText = product.title;
+        const h3 = document.createElement("h3");
+        h3.innerText = product.title;
+        anchor.appendChild(h3);
 
-    const description = document.querySelector(".product-description");
-    description.innerText = product.description;
+        const p = document.createElement("p");
+        p.innerText = `$ ${product.price}`;
+        anchor.appendChild(p);
 
-    const price = document.querySelector(".product-price");
-    price.innerText = `$ ${product.price}`;
+        li.appendChild(anchor);
+        productsContainer.appendChild(li);
+    });
 });

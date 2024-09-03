@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", async (event) => {
         const product = products[i];
         const li = document.createElement("li");
         const anchor = document.createElement("a");
-        anchor.href = `products.html?id=${product.id}`;
+        anchor.href = `product.html?id=${product.id}`;
         anchor.classList.add("product");
 
         const img = document.createElement("img");
