@@ -28,6 +28,9 @@
     align-items: center;
   }
 
+.popular_products {
+    grid-template-columns: repeat(3, 1fr);
+}
 
 li a {
     text-decoration: none;
