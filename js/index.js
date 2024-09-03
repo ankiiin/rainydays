@@ -8,10 +8,11 @@ document.addEventListener("DOMContentLoaded", async (event) => {
     const json = await response.json();
     const products = json.data;
 
-    products.forEach((product) => {
+    for(let i = 0; i < 3; i++) {
+        const product = products[i];
         const li = document.createElement("li");
         const anchor = document.createElement("a");
-        anchor.href = `/products/product.html?id=${product.id}`;
+        anchor.href = `products.html?id=${product.id}`;
         anchor.classList.add("product");
 
         const img = document.createElement("img");
@@ -31,5 +32,5 @@ document.addEventListener("DOMContentLoaded", async (event) => {
 
         li.appendChild(anchor);
         productsContainer.appendChild(li);
-    });
+    }
 });
