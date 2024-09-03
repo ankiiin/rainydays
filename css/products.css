@@ -9,11 +9,11 @@ img {
     max-width: 100%;
 }
 
-.campingimg {
+.container {
     flex-basis: 35%;
 }
 
-.campingtxt {
+.container {
     font-size: .8em;
     padding-left: 3%;
 }
