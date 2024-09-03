@@ -9,9 +9,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     const product = json.data;
 
     console.log(product);
-    const image = document.querySelector("#product-image");
+    const imageContainer = document.querySelector(".product-image");
+    const image = document.createElement("img");
     image.src = product.image.url;
     image.alt = product.image.alt ?? product.title;
+    imageContainer.appendChild(image);
 
     const title = document.querySelector(".product-title");
     title.innerText = product.title;

@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", async (event) => {
     const json = await response.json();
     const products = json.data;
 
+
     for(let i = 0; i < 3; i++) {
         const product = products[i];
         const li = document.createElement("li");
