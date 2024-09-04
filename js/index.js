@@ -34,11 +34,12 @@ document.addEventListener("DOMContentLoaded", async (event) => {
         li.appendChild(anchor);
         productsContainer.appendChild(li);
     }
-    document.addEventListener("DOMContentLoaded", function() {
-        var spinner = document.getElementById('spinner');
-        spinner.style.display = 'block';
-                setTimeout(function() {
-            spinner.style.display = 'none';
-        }, 3000);
-    });
-});
+})
+
+window.onload = function() {
+    setTimeout(function() {
+        document.getElementById('spinner').style.display = 'none';
+        document.getElementById('content').style.display = 'block';
+    }, 3000);
+};
+
