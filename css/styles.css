@@ -29,6 +29,10 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.content {
+    display: none;
+}
+
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }

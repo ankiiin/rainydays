@@ -34,12 +34,7 @@ document.addEventListener("DOMContentLoaded", async (event) => {
         li.appendChild(anchor);
         productsContainer.appendChild(li);
     }
+    const spinner = document.querySelector(".spinner");
+    spinner.remove();
 })
-
-window.onload = function() {
-    setTimeout(function() {
-        document.getElementById('spinner').style.display = 'none';
-        document.getElementById('content').style.display = 'block';
-    }, 3000);
-};
 

@@ -23,4 +23,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const price = document.querySelector(".product-price");
     price.innerText = `$ ${product.price}`;
+
+    const spinner = document.querySelector(".spinner");
+    spinner.remove();
 });
