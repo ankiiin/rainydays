@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", async (event) => {
     document.addEventListener("DOMContentLoaded", function() {
         var spinner = document.getElementById('spinner');
         spinner.style.display = 'block';
-        setTimeout(function() {
+                setTimeout(function() {
             spinner.style.display = 'none';
         }, 3000);
     });
