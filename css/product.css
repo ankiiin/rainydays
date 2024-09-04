@@ -22,7 +22,7 @@ img {
 
 .cta_buy {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     width: 100%;
     }
 

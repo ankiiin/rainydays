@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", async (event) => {
     console.log("Hiya");
     const baseUrl = "https://v2.api.noroff.dev/rainy-days";
-    const productsContainer = document.querySelector(".popular_products");
+    const productsContainer = document.querySelector(".containers");
     productsContainer.innerHTML = "";
 
     const response = await fetch(baseUrl);
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async (event) => {
     products.forEach((product) => {
         const li = document.createElement("li");
         const anchor = document.createElement("a");
-        anchor.href = `/products/product.html?id=${product.id}`;
+        anchor.href = `product.html?id=${product.id}`;
         anchor.classList.add("product");
 
         const img = document.createElement("img");
