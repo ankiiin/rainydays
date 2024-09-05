@@ -5,6 +5,11 @@ document.addEventListener("DOMContentLoaded", async (event) => {
     productsContainer.innerHTML = "";
 
     const response = await fetch(baseUrl);
+
+    if (!response.ok) {
+        throw new Error(`Error fetching products: ${response.statusText}`);
+    }
+    
     const json = await response.json();
     const products = json.data;
 
@@ -35,3 +40,11 @@ document.addEventListener("DOMContentLoaded", async (event) => {
     const spinner = document.querySelector(".spinner");
     spinner.remove();
 });
+
+function displayErrorMessage(message) {
+    const mainContainer = document.querySelector("main");
+    const errorMessage = document.createElement("p");
+    errorMessage.textContent = message;
+    errorMessage.style.color = "red";
+    mainContainer.appendChild(errorMessage);
+}

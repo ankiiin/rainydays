@@ -4,8 +4,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     const apiUrl = `https://v2.api.noroff.dev/rainy-days/${id}`;
 
     const response = await fetch(apiUrl);
-    const json = await response.json();
 
+    if (!response.ok) {
+        throw new Error(`Error fetching products: ${response.statusText}`);
+    }
+
+    const json = await response.json();
     const product = json.data;
 
     console.log(product);
@@ -26,4 +30,14 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const spinner = document.querySelector(".spinner");
     spinner.remove();
-});
+
+})
+
+function displayErrorMessage(message) {
+    const mainContainer = document.querySelector("main");
+    const errorMessage = document.createElement("p");
+    errorMessage.textContent = message;
+    errorMessage.style.color = "red";
+    mainContainer.appendChild(errorMessage);
+}
+
