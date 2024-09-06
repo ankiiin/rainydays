@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", async (event) => {
+    try {
     console.log("Hiya");
     const baseUrl = "https://v2.api.noroff.dev/rainy-days";
     const productsContainer = document.querySelector(".containers");
@@ -9,7 +10,7 @@ document.addEventListener("DOMContentLoaded", async (event) => {
     if (!response.ok) {
         throw new Error(`Error fetching products: ${response.statusText}`);
     }
-    
+
     const json = await response.json();
     const products = json.data;
 
@@ -39,6 +40,16 @@ document.addEventListener("DOMContentLoaded", async (event) => {
     });
     const spinner = document.querySelector(".spinner");
     spinner.remove();
+} catch (error) {
+
+    console.error("An error occurred:", error);
+    displayErrorMessage("Sorry, we couldn't load the products. Please try again later.");
+
+    const spinner = document.querySelector(".spinner");
+    if (spinner) {
+        spinner.remove();
+    }
+}
 });
 
 function displayErrorMessage(message) {
