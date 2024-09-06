@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", async () => {
+    try {
     const urlParams = new URLSearchParams(window.location.search);
     const id = urlParams.get("id");
     const apiUrl = `https://v2.api.noroff.dev/rainy-days/${id}`;
@@ -30,6 +31,17 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const spinner = document.querySelector(".spinner");
     spinner.remove();
+    
+} catch (error) {
+
+    console.error("An error occurred:", error);
+    displayErrorMessage("Sorry, we couldn't load the products. Please try again later.");
+
+    const spinner = document.querySelector(".spinner");
+    if (spinner) {
+        spinner.remove();
+    }
+}
 
 })
 
