@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     const json = await response.json();
     const product = json.data;
 
-    console.log(product);
     const imageContainer = document.querySelector(".product-image");
     const image = document.createElement("img");
     image.src = product.image.url;

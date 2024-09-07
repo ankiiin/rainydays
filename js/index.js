@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", async (event) => {
     try {
-        console.log("Hiya");
 
         const baseUrl = "https://v2.api.noroff.dev/rainy-days";
         const productsContainer = document.querySelector(".popular_products");
