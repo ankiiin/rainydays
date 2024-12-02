@@ -1,30 +1,43 @@
-# Rainydays
+#Rainydays
 
-## A functional website for Rainydays using HTML and CSS.
+Rainydays is an e-commerce website built to showcase and sell jackets for men and women. This project was part of my Semester Project 1 assignment and demonstrates skills in creating a responsive and dynamic website using HTML, CSS, and JavaScript.
 
-This project is a functional website built for my student assignment from my prototype in Figma.
+#Description
 
-Creating different pages as listed in the architecture of the chosen brief such as:
-* Home page
-* About page
-* Contact page
-* Product page
-* Check out page
-* A few extra pages
+The Rainydays project focuses on delivering a user-friendly shopping experience. It incorporates dynamic content and responsiveness, ensuring accessibility across devices. The purpose of the project was to create a fully functional website with key e-commerce features, including product listings, a checkout process, and a contact form.
 
-Issues:
+**Key Features:**
+- Fetches product data dynamically from an external API.
+- Responsive design using media queries for a seamless mobile and desktop experience.
+- Interactive navigation bar with quick access to all pages.
+- Functional checkout form for customer purchases.
+- Dynamic product details page based on selected items.
 
-I have had some issues with media queries and have tried to change my css codes and I´m still working on how to fix that. I will get back when this has been fixed. Figured the mistake where I have used position:absolute on every code which will not work with the media queries. I will now have to go through everything since nothing will be in position after i remove position:absolute. 
-Unfortunately the image on the home page where the CTA "explore whats new" is not possible to make high quality.
+# Built with
+- HTML - Structure and content.
+- CSS - Styling, including Grid and Flexbox.
+- JavaScript - Dynamic data fetching, DOM manipulation, and interactivity.
+-Noroff API - External API for product data.
 
-Changes from prototype:
+# Getting Started
 
-I had a hard time making the same fonts as in my prototype in Figma, so I have used Roboto instead.
-I have used a different image on the home page than in Figma because I unfortunately could not find the image I used in my prototype. 
-I decided to not have the back button on the products pages because I was not very happy with the design when I added that. 
-The checkoutform on the checkout page is listed under each other instead of having first name and last name next to each other simply because I think the design looks better like that. 
-I have used a white background on the images in the checkout page simply because I think it looks better.
-To make the menubar available when scrolling down the pages I had to change the logo to be underneath the menubar.
+**Installing**
+1. Clone the repository:
+   https://github.com/ankiiin/rainydays.git
+2. Open the project folder in your code editor.
 
-References:
-I want to thank Eric and Brian for the help I got on the special effects like the grey background on the items in the check out page, and the cta button on the image on home page.
+**Running**
+1. Launch the index.html file in your browser to view the website.
+
+# Contributing
+
+If you'd like to contribute to this project, please:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Submit a pull request with detailed comments about your changes.
+
+# Acknowledgments
+
+- Special thanks to my instructors and peers for guidance throughout the project.
+- Noroff API for providing the product data used in this project.
