@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The about page of my website">
     <link href="../css/styles.css" rel="stylesheet">
-    <link href="../css/home.css" rel="stylesheet">
+    <link href="../css/product.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/36779412fb.js" crossorigin="anonymous"></script>
-    <title>Rainydays | Home</title>
+    <title>Rainydays | Product </title>
+    <script src="../js/product.js" type="module"></script>
     <script src="../js/index.js" type="module"></script>
 </head>
 <body>
@@ -44,38 +45,23 @@
     </header>
     <div class="spinner"></div>
     <main>
-        <div class="carousel-container">
-            <div class="carousel-images">
+        <section class="container">
+            <div class="product-image">
             </div>
-            <button class="carousel-control prev">
-                <i class="fa fa-arrow-left" aria-hidden="true"></i>
-            </button>
-            <button class="carousel-control next">
-                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-            </button>
-        </div>
-<section class="rainy-days-section">
-    <div class="rainy-days-content">
-        <h2>About Rainy Days</h2>
-        <p>
-            Rainy Days is your go-to brand for stylish and functional outdoor jackets. 
-            Whether you're hiking in the mountains or strolling through the city, 
-            our jackets are designed to keep you dry and comfortable in any weather. 
-            Explore our collection and embrace the elements with confidence.
-        </p>
-    </div>
-</section>  
-<section class="new-arrivals">
-    <div class="new-arrivals-title">
-        <h2>New Arrivals</h2>
-    </div>
-    <div class="thumbnail-grid">
-    </div>
-    <div class="cta-button-container">
-        <a href="./html/products.html" class="cta-button">Explore All</a>
-    </div>
-</section>
-    </main>
+            <div>
+               <h1 class="product-title"></h1>
+            <div>
+               <p class="product-description"></p>
+            </div>
+            <div>
+                <p class="product-price"></p>
+            </div>
+            <div class="cta_buy">
+                <a href="../html/checkout.html" class="cta_buy_anchor">Add to cart</a>
+            </div>
+            </div>
+        </section>
+    </main>  
     <footer>
         <div class="footer-left">
             <h1>Rainydays</h1>
@@ -86,10 +72,10 @@
         <div class="footer-right">
             <h2>Information</h2>
             <ul class="footer-links">
-                <li><a href="index.html" class="footer-button">Privacy Policy</a></li>
-                <li><a href="index.html" class="footer-button">Terms & Conditions</a></li>
-                <li><a href="index.html" class="footer-button">Accessibility Statement</a></li>
-                <li><a href="index.html" class="footer-button">Find a Store</a></li>
+                <li><a href="../index.html" class="footer-button">Privacy Policy</a></li>
+                <li><a href="../index.html" class="footer-button">Terms & Conditions</a></li>
+                <li><a href="../index.html" class="footer-button">Accessibility Statement</a></li>
+                <li><a href="../index.html" class="footer-button">Find a Store</a></li>
             </ul>
             <div class="social-media">
                 <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>

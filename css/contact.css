@@ -13,7 +13,9 @@ form {
 .contact_us {
     font-size: 1.5em;
     text-align: center;
-    padding-bottom: 3%;
+    padding-bottom: 20px;
+    font-weight: bold;
+    padding-top: 30px;
 }
 
 input,
@@ -22,6 +24,7 @@ select {
     padding: 10px;
     display: flex;
     width: 400px;
+    border-radius: 5px;
 }
 
 .contact_form {
@@ -33,6 +36,7 @@ textarea {
     padding: 3%;
     height: 40%;
     min-height: 100%;
+    border-radius: 5px;
 }
 
 .contactform > * {
@@ -44,12 +48,23 @@ textarea {
 }
 
 .cta_contact {
-    background-color: #0a3641;
-    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.cta_contact {
+    background-color: #192c19; 
+    color: white;
+    padding: 12px 25px;
     text-decoration: none;
     font-size: 1.2em;
-    margin-bottom: 5%;
-    padding: 20px 40px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta_contact:hover {
+    background-color: #394a3c;
 }
 
 .hide {

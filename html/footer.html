@@ -10,19 +10,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" 
     crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/36779412fb.js" crossorigin="anonymous"></script>
+    <script src="../js/index.js" type="module"></script>
     <title> Rainydays | Footer </title>
 </head>
 <body>
     <header>
-        <div class="logo"><a href="index.html"><img src="images/logo_rainydays.png" alt="Logo"></a></div>
-        <nav class="menubar">
-            <ul class="menu">
-                <li><a href="index.html" class="home_button">Home</a></li>
-                <li><a href="products.html" class="men_button">Men</a></li>
-                <li> <a href="products.html" class="women_button">Women</a> </li>
-                <li><a href="about.html" class="about_button">About</a></li>
-                <li><a href="contact.html" class="contact_button">Contact</a></li>
-                <li><a href="checkout.html"><span class="hide">cart icon</span><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <nav class="navbar">
+            <div class="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="logo">
+                <a href="../index.html"><img src="../images/logo_rainydays.png" alt="Logo"></a>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li><a href="../index.html" class="home_button">Home</a></li>
+                    <li><a href="../html/products.html" class="men_button">Men</a></li>
+                    <li><a href="../html/products.html" class="women_button">Women</a></li>
+                    <li><a href="../html/about.html" class="about_button">About</a></li>
+                    <li><a href="../html/contact.html" class="contact_button">Contact</a></li>
+                </ul>
+            </div>
+            <div class="cart">
+                <a href="../html/checkout.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </nav>
+        <nav class="mobile-menu">
+            <ul class="menu-list">
+                <li><a href="../index.html" class="home_button">Home</a></li>
+                <li><a href="../html/products.html" class="men_button">Men</a></li>
+                <li><a href="../html/products.html" class="women_button">Women</a></li>
+                <li><a href="../html/about.html" class="about_button">About</a></li>
+                <li><a href="../html/contact.html" class="contact_button">Contact</a></li>
             </ul>
         </nav>
     </header>

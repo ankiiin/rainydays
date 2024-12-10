@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The about page of my website">
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/checkout.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/36779412fb.js" crossorigin="anonymous"></script>
+    <script src="../js/index.js" type="module"></script>
+    <title>Rainydays | Checkout </title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <div class="hamburger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="logo">
+            <a href="../index.html"><img src="../images/logo_rainydays.png" alt="Logo"></a>
+        </div>
+        <div class="menu">
+            <ul class="menu-list">
+                <li><a href="../index.html" class="home_button">Home</a></li>
+                <li><a href="../html/products.html" class="men_button">Men</a></li>
+                <li><a href="../html/products.html" class="women_button">Women</a></li>
+                <li><a href="../html/about.html" class="about_button">About</a></li>
+                <li><a href="../html/contact.html" class="contact_button">Contact</a></li>
+            </ul>
+        </div>
+        <div class="cart">
+            <a href="../html/checkout.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+    </nav>
+    <nav class="mobile-menu">
+        <ul class="menu-list">
+            <li><a href="../index.html" class="home_button">Home</a></li>
+            <li><a href="../html/products.html" class="men_button">Men</a></li>
+            <li><a href="../html/products.html" class="women_button">Women</a></li>
+            <li><a href="../html/about.html" class="about_button">About</a></li>
+            <li><a href="../html/contact.html" class="contact_button">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="spinner"></div>
+    <main class="allpage">
+    <section class="all">
+      <p class="checkout-intro">Please fill in the details below to complete your purchase.</p>
+            <div class="checkoutform">
+                <section class="checkout_form">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email"/>
+                    <br>
+                    <label for="firstname">First name</label>
+                    <input type="text" id="firstname" name="firstname"/>
+                    <br>
+                    <label for="lastname">Last name</label>
+                    <input type="text" id="lastname" name="lastname"/>
+                    <br>
+                    <label for="adress">Adress</label>
+                    <input type="text" id="adress" name="adress"/>
+                    <br>
+                    <label for="zipcode">Zip code</label>
+                    <input type="text" id="zipcode" name="zipcode"/>
+                    <br>
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city"/>
+                    <br>
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone"/>
+                </section>
+            </div>
+        </form>
+        <section class="jackets">
+            <h1 class="items">3 items</h1>
+            <div class="jacket-card">
+              <div class="jacket-img">
+                <img src="../images/retro_jackett.png" alt="image of retro jacket" height="200" />
+              </div>
+              <div class="jacket-info">
+                <p>Retro jacket</p>
+                <p>Small</p>
+                <p>$ 35.00</p>
+              </div>
+            </div>
+            <div class="jacket-card">
+              <div class="jacket-img">
+                <img src="../images/sailor_jacket.png" width="165" alt="image of sailor jacket" height="200" />
+              </div>
+              <div class="jacket-info">
+                <p>Sailor jacket</p>
+                <p>Small</p>
+                <p>$ 49.99</p>
+              </div>
+            </div>
+            <div class="jacket-card">
+              <div class="jacket-img">
+                <img src="../images/softshell_jacket.png" width="165" alt="image of softshell jacket" height="200" />
+              </div>
+              <div class="jacket-info">
+                <p>Softshell jacket</p>
+                <p>Small</p>
+                <p>$ 55.00</p>
+              </div>
+            </div>
+            <h2 class="items">Total $ 139.99</h2>
+            <a href="../html/complete.html" class="cta_complete">Check out</a>
+        </section>
+    </section>
+  </main>
+  <footer>
+      <div class="footer-left">
+          <h1>Rainydays</h1>
+          <p>12345 Fictional Street, Imaginary City, ABC 12345</p>
+          <p>OPEN 10:00 ~ 18:00</p>
+          <p>TEL +1 (800) 555-1234</p>
+      </div>
+      <div class="footer-right">
+          <h2>Information</h2>
+          <ul class="footer-links">
+              <li><a href="../index.html" class="footer-button">Privacy Policy</a></li>
+              <li><a href="../index.html" class="footer-button">Terms & Conditions</a></li>
+              <li><a href="../index.html" class="footer-button">Accessibility Statement</a></li>
+              <li><a href="../index.html" class="footer-button">Find a Store</a></li>
+          </ul>
+          <div class="social-media">
+              <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+      </div>
+  </footer>    
+</body>
+</html>
