@@ -1,6 +1,6 @@
 # Rainydays
 
-![Alt tekst](https://papaya-naiad-4ff4c8.netlify.app/images/lake_photo.png)
+![Alt tekst](https://papaya-naiad-4ff4c8.netlify.app/images/about.png)
 
 Rainydays is an e-commerce website built to showcase and sell jackets for men and women. This project was part of my Semester Project 1 assignment and demonstrates skills in creating a responsive and dynamic website using HTML, CSS, and JavaScript.
 
